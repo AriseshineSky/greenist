@@ -18,7 +18,7 @@ class TestProduct(unittest.TestCase):
         url = "https://www.vitalabo.com/natures-plus/ultra-prenatal"
         body = None
         with open(
-            "vitalabo_test/pages/ultra-prenatal",
+            "vitalabo_test/pages/ultra-prenatal.html",
             "rb",
         ) as file:
             body = file.read()
@@ -42,7 +42,7 @@ class TestProduct(unittest.TestCase):
             "brand": "NaturesPlus",
             "specifications": None,
             "categories": None,
-            "price": 72.14,  # currency 1.11
+            "price": 72.14, # currency 1.11
             "videos": None,
             "shipping_fee": 0.00,
         }

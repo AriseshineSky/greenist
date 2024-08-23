@@ -1,0 +1,80 @@
+{
+    "@context": "https:\/\/schema.org",
+    "@type": "Product",
+    "name": "NaturesPlus Ultra Bromelain, 60 tablets",
+    "description": "Pineapple enzyme",
+    "image": [
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/70020_6ddfe281.128x128.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/70020_6ddfe281.256x256.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/70020_6ddfe281.512x512.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/70020_6ddfe281.1024x1024.jpg"
+    ],
+    "sku": "DS-4406",
+    "productID": "EAN:097467044067",
+    "gtin13": "0097467044067",
+    "brand": {
+        "@type": "Brand",
+        "name": "NaturesPlus"
+    },
+    "offers": {
+        "@context": "https:\/\/schema.org",
+        "@type": "Offer",
+        "price": "54.99",
+        "url": "https:\/\/www.vitalabo.com\/natures-plus\/ultra-bromelain",
+        "priceCurrency": "EUR",
+        "itemCondition": "https:\/\/schema.org\/NewCondition",
+        "availability": "https:\/\/schema.org\/InStock",
+        "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "AT",
+            "returnPolicyCategory": "https:\/\/schema.org\/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 30,
+            "returnMethod": "https:\/\/schema.org\/ReturnByMail",
+            "returnFees": "https:\/\/schema.org\/FreeReturn"
+        },
+        "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "businessDays": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "https:\/\/schema.org\/Monday",
+                    "https:\/\/schema.org\/Tuesday",
+                    "https:\/\/schema.org\/Wednesday",
+                    "https:\/\/schema.org\/Thursday",
+                    "https:\/\/schema.org\/Friday"
+                ]
+            },
+            "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": 0,
+                "currency": "EUR"
+            },
+            "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "AT"
+            },
+            "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "cutoffTime": "23:59:00Z",
+                "handlingTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 5,
+                    "maxValue": 10,
+                    "unitCode": "d"
+                },
+                "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 5,
+                    "maxValue": 5,
+                    "unitCode": "d"
+                }
+            }
+        }
+    },
+    "aggregateRating": {
+        "@context": "https:\/\/schema.org",
+        "@type": "AggregateRating",
+        "ratingCount": "11",
+        "ratingValue": "4"
+    }
+}
