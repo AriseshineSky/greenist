@@ -16,36 +16,48 @@ class ProductSpider(scrapy.Spider):
         date = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
         url = response.css('meta[property="og:url"]::attr(content)').get().strip()
         product_id = 3
-        title = response.css('div.h1::text').get().strip()
         images = response.css('div.product--image-container source[type="image/webp"]::attr(srcset)').get().strip()
 
+        existence = False
+        exist_sel = response.css('meta[property="og:availability"]::attr(href)')
+        if exist_sel and (exist_sel.get().strip() == 'instock'):
+            existence = True
+
+        title = response.css('div.h1::text').get().strip()
+
+        brand = response.css('meta[property="product:brand"]::attr(content)').get().strip()
+
+        cat_list = [cat.get().strip() for cat in response.css('span.breadcrumb--title::text')[1:]]
+        categories = " > ".join(cat_list)
+
         price = None
-        price_css = response.css('meta[itemprop="price"]::attr(content)').get()
-        if price_css:
-            price = round(float(price_css.strip())*1.11, 2)
+        price_sel = response.css('meta[itemprop="price"]::attr(content)')
+        if price_sel:
+            existence = True
+            price = round(float(price_sel.get().strip())*1.11, 2)
 
         yield {
             "date": date,
             "url": url,
             "source": "Greenist",
-            "product_id": "",
-            "existence": None,
+            "product_id": None,
+            "existence": existence,
             "title": title,
             "title_en": None,
             "description_en": None,
             "summary": None,
             "sku": None,
             "upc": None,
-            "brand": "Janur",
+            "brand": brand,
         	"specifications": None,
-            "categories": None,
+            "categories": categories,
             "images": images,
             "videos": None,
             "price": price,
             "available_qty": None,
             "options": None,
             "variants": None,
-            "returnable": None,
+            "returnable": False,
             "reviews": None,
             "rating": None,
             "sold_count": None,

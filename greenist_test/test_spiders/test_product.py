@@ -37,7 +37,7 @@ class TestProduct(unittest.TestCase):
             "sku": None,
             "brand": "Janur",
             "specifications": None,
-            "categories": "Vitalfood>Natürlich Süßen>Zuckeralternativen",
+            "categories": "Vitalfood > Natürlich Süßen > Zuckeralternativen",
             "price": None,
             "videos": None,
             "shipping_fee": 0,
@@ -45,19 +45,18 @@ class TestProduct(unittest.TestCase):
         }
 
         keys = [
-            # "existence",
+            "existence",
             # "product_id",
-            # "sku",
+            "sku",
             "url",
             "source",
-            # "existence",
-            # "brand",
-            # "product_id",
+            "brand",
             "title",
             # "shipping_fee",
             # "specifications",
             "images",
             "price",
+            "categories",
         ]
         for key in keys:
             self.assertEqual(product[key], target_product[key])
@@ -80,16 +79,16 @@ class TestProduct(unittest.TestCase):
         target_product = {
             "url": "https://www.greenist.de/bio-planete-bio-arganoel-nativ-100ml.html",
             "source": "Greenist",
-            "existence": False,
+            "existence": True,
             "title": "Bio Arganöl, nativ, 100ml",
             "images": "https://www.greenist.de/media/image/4b/ed/df/bio-planete-bio-arganoel-nativ-100ml-front-neu_600x600.webp",
             "description_en": None,
             "summary": None,
             "upc": None,
             "sku": None,
-            "brand": "Janur",
+            "brand": "Bio Planète",
             "specifications": None,
-            "categories": "Vitalfood>Natürlich Süßen>Zuckeralternativen",
+            "categories": "Vitalfood > Öle & Essig > Öle",
             "price": 15.53,  # currency 1.11
             "videos": None,
             "shipping_fee": 0,
@@ -97,19 +96,18 @@ class TestProduct(unittest.TestCase):
         }
 
         keys = [
-            # "existence",
+            "existence",
             # "product_id",
-            # "sku",
+            "sku",
             "url",
             "source",
-            # "existence",
-            # "brand",
-            # "product_id",
+            "brand",
             "title",
             # "shipping_fee",
             # "specifications",
             "images",
             "price",
+            "categories",
         ]
         for key in keys:
             self.assertEqual(product[key], target_product[key])
