@@ -11,14 +11,18 @@ class ProductSpider(scrapy.Spider):
     start_urls = ["https://greenist.de"]
 
     def parse(self, response: HtmlResponse):
-        breakpoint()
+        # breakpoint()
 
         date = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
         url = response.css('meta[property="og:url"]::attr(content)').get().strip()
         product_id = 3
         title = response.css('div.h1::text').get().strip()
         images = response.css('div.product--image-container source[type="image/webp"]::attr(srcset)').get().strip()
-        price = f"{float(response.css('meta[itemprop="price"]::attr(content)').get().strip())*1.11:.2f}"
+
+        price = None
+        price_css = response.css('meta[itemprop="price"]::attr(content)').get()
+        if price_css:
+            price = round(float(price_css.strip())*1.11, 2)
 
         yield {
             "date": date,
