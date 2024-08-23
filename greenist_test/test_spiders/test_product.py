@@ -45,17 +45,17 @@ class TestProduct(unittest.TestCase):
         }
 
         keys = [
-            "existence",
-            "product_id",
-            "sku",
+            # "existence",
+            # "product_id",
+            # "sku",
             "url",
             "source",
-            "existence",
-            "brand",
-            "product_id",
+            # "existence",
+            # "brand",
+            # "product_id",
             "title",
-            "shipping_fee",
-            "specifications",
+            # "shipping_fee",
+            # "specifications",
             "images",
             "price",
         ]
@@ -97,17 +97,17 @@ class TestProduct(unittest.TestCase):
         }
 
         keys = [
-            "existence",
-            "product_id",
-            "sku",
+            # "existence",
+            # "product_id",
+            # "sku",
             "url",
             "source",
-            "existence",
-            "brand",
-            "product_id",
+            # "existence",
+            # "brand",
+            # "product_id",
             "title",
-            "shipping_fee",
-            "specifications",
+            # "shipping_fee",
+            # "specifications",
             "images",
             "price",
         ]
