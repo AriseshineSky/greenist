@@ -25,6 +25,17 @@ class ProductSpider(scrapy.Spider):
 
         title = response.css('div.h1::text').get().strip()
         images = response.css('div.product--image-container source[type="image/webp"]::attr(srcset)').get().strip()
+        
+        # 描述先这样
+        desc_sels = response.css('div.content--description > div')
+        if desc_sels:
+            descriptions = '<div class="content--description">'
+            for sel in desc_sels:
+                cname = sel.css('::attr(class)').get().strip()
+                if not ((cname == 'product--ratings') or (cname == 'product--faqs')):
+                    descriptions += sel.get().replace('\r', '').replace('\n', '')
+            descriptions += "</div>"
+        print(descriptions)
 
         upc = None
         nt_sels = response.css('div.nutrition--title')
@@ -102,6 +113,7 @@ class ProductSpider(scrapy.Spider):
             "existence": existence,
             "title": title,
             "title_en": None,
+            "descriptions": descriptions,
             "description_en": None,
             "summary": None,
             "sku": None,
