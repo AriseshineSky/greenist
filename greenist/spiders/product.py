@@ -34,7 +34,7 @@ class ProductSpider(scrapy.Spider):
                 ean_i = s
                 break
         if ean_i >= 0:
-            upc = response.css('div.nutrition--value')[ean_i].css('::text').get().strip()
+            upc = response.css('div.nutrition--value')[ean_i].css('p::text').get().strip()
 
         brand = response.css('meta[property="product:brand"]::attr(content)').get().strip()
 
