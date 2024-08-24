@@ -69,6 +69,14 @@ class VitalaboSpider(scrapy.Spider):
         result['title'] = ' '.join(response.css('h1.p-heading::text').getall()[1].strip().split())
 
         # TODO: description_en
+        desc_sel = response.css('div.p-details > details')
+        if desc_sel:
+            result['description_en'] = '<div class="content--description">'
+            for sel in desc_sel:
+                result['description_en'] += sel.get().replace('\r', '').replace('\n', '')
+            result['description_en'] += "</div>"
+        print(result['description_en'])
+        print()
 
         result['sku'] = result['product_id']
         result['upc'] = prod_json['gtin13'][1:]
