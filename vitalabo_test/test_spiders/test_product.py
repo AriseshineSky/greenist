@@ -46,7 +46,10 @@ class TestProduct(unittest.TestCase):
             "reviews": 31,
             "rating": 4.7,
             "weight": 0.77, # kg -> lb 2.20462
-            "options": None,
+            "options": [{
+                "id": None,
+                "name": "Flavour"
+            }],
             "variants": None,
         }
         keys = [

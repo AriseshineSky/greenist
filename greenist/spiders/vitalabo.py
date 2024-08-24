@@ -12,10 +12,44 @@ class VitalaboSpider(scrapy.Spider):
     start_urls = ["https://www.vitalabo.com/"]
 
     def parse(self, response: HtmlResponse):
+        result = {
+            "date": None,
+            "url": None,
+            "source": "Vitalabo",
+            "product_id": None,
+            "existence": False,
+            "title": None,
+            "title_en": None,
+            "description_en": None,
+            "summary": None,
+            "sku": None,
+            "upc": None,
+            "brand": None,
+        	"specifications": None,
+            "categories": None,
+            "images": None,
+            "videos": None,
+            "price": None,
+            "available_qty": None,
+            "options": None,
+            "variants": None,
+            "returnable": False,
+            "reviews": None,
+            "rating": None,
+            "sold_count": None,
+            "shipping_fee": None,
+            "shipping_days_min": None,
+            "shipping_days_max": None,
+            "weight": None,
+            "width": None,
+            "height": None,
+            "length": None
+        }
+
         # breakpoint()
 
-        date = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-        url = response.css('meta[property="og:url"]::attr(content)').get().strip()
+        result['date'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
+        result['url'] = response.css('meta[property="og:url"]::attr(content)').get().strip()
 
         try:
             prod_json = None
@@ -27,80 +61,46 @@ class VitalaboSpider(scrapy.Spider):
         except:
             return
 
-        product_id = prod_json['sku'] # 网页上“Item no.
+        result['product_id'] = prod_json['sku'] # 网页上“Item no.
         
-        existence = False
         if 'instock' in prod_json['offers']['availability'].lower():
-            existence = True
+            result['existence'] = True
 
-        # title = prod_json['name']
-        title = ' '.join(response.css('h1.p-heading::text').getall()[1].strip().split())
+        result['title'] = ' '.join(response.css('h1.p-heading::text').getall()[1].strip().split())
 
         # TODO: description_en
-        descriptions = None
 
-        upc = prod_json['gtin13'][1:]
-        brand = prod_json['brand']['name']
+        result['sku'] = result['product_id']
+        result['upc'] = prod_json['gtin13'][1:]
+        result['brand'] = prod_json['brand']['name']
 
         cat_sel = response.css('ul#js-breadcrumbs a')[1:-1]
-        categories = " > ".join([cat.css("::text").get().strip() for cat in cat_sel])
+        result['categories'] = " > ".join([cat.css("::text").get().strip() for cat in cat_sel])
 
         img_sel = response.css('div.bigslider img.product__image')
-        images = ";".join([img.css("::attr(src)").get().strip().replace('256x256.jpg', '768x768.jpg') for img in img_sel])
+        result['images'] = ";".join([img.css("::attr(src)").get().strip().replace('256x256.jpg', '768x768.jpg') for img in img_sel])
 
         price_eu = float(prod_json['offers']['price'])
-        price = round(price_eu*1.11, 2)
+        result['price'] = round(price_eu*1.11, 2)
 
-        available_qty = None
-        quant_sel = response.css('p.p-stock::attr(data-limit)')
-        if existence == False:
-            available_qty = 0
-        elif quant_sel:
-            available_qty = int(quant_sel.get().strip())
+        result['available_qty'] = int(response.css('p.p-stock::attr(data-limit)').get().strip())
+        result['reviews'] = int(prod_json['aggregateRating']['ratingCount'])
+        result['rating'] = round(float(prod_json['aggregateRating']['ratingValue']), 1)
 
-        # TODO: ul.p-variants__list（点击并获取变种）
+        ep_txt = response.css('span.p-price__perunit::text').get().strip()
+        if ep_txt.endswith('kg'):
+            ppk = float(ep_txt[2:-5].replace(",", "."))
+            result['weight'] = round(price_eu/ppk*2.20462, 2)
 
+        result['shipping_fee'] = round(prod_json['offers']['shippingDetails']['shippingRate']['value']*1.11, 2)
+        result['shipping_days_min'] = prod_json['offers']['shippingDetails']['deliveryTime']['transitTime']['minValue']
+        result['shipping_days_max'] = prod_json['offers']['shippingDetails']['deliveryTime']['transitTime']['maxValue']
 
-        reviews = int(prod_json['aggregateRating']['ratingCount'])
-        rating = round(float(prod_json['aggregateRating']['ratingValue']), 1)
+        var_sel = response.css('div.p-variants')
+        if var_sel:
+            result['options'] = [{
+                "id": None,
+                "name": response.css('span.p-variants__selected__label::text').get().strip()[:-1]
+            }]
 
-        ppk = float(response.css('span.p-price__perunit::text').get().strip()[2:-5].replace(",", "."))
-        weight = round(price_eu/ppk*2.20462, 2)
-
-        shipping_fee = round(prod_json['offers']['shippingDetails']['shippingRate']['value']*1.11, 2)
-        shipping_days_min = prod_json['offers']['shippingDetails']['deliveryTime']['transitTime']['minValue']
-        shipping_days_max = prod_json['offers']['shippingDetails']['deliveryTime']['transitTime']['maxValue']
-
-        yield {
-            "date": date,
-            "url": url,
-            "source": "Vitalabo",
-            "product_id": product_id,
-            "existence": existence,
-            "title": title,
-            "title_en": title,
-            "description_en": descriptions,
-            "summary": None,
-            "sku": product_id,
-            "upc": upc,
-            "brand": brand,
-        	"specifications": None,
-            "categories": categories,
-            "images": images,
-            "videos": None,
-            "price": price,
-            "available_qty": available_qty,
-            "options": None,
-            "variants": None,
-            "returnable": False,
-            "reviews": reviews,
-            "rating": rating,
-            "sold_count": None,
-            "shipping_fee": shipping_fee,
-            "shipping_days_min": shipping_days_min,
-            "shipping_days_max": shipping_days_max,
-            "weight": weight,
-            "width": None,
-            "height": None,
-            "length": None
-        }
+        yield result
