@@ -1,0 +1,98 @@
+{
+    "@context": "https:\/\/schema.org",
+    "@type": "Product",
+    "name": "NaturesPlus Animal Parade 180 Chewable Multivitamins, Cherry",
+    "description": "High quality & delicious taste!",
+    "image": [
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/75722_63cdfc9e.128x128.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/75722_63cdfc9e.256x256.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/75722_63cdfc9e.512x512.jpg",
+        "https:\/\/va.nice-cdn.com\/upload\/image\/product\/large\/default\/75722_63cdfc9e.1024x1024.jpg"
+    ],
+    "sku": "DS-29972",
+    "productID": "EAN:097467299726",
+    "gtin13": "0097467299726",
+    "brand": {
+        "@type": "Brand",
+        "name": "NaturesPlus"
+    },
+    "offers": {
+        "@context": "https:\/\/schema.org",
+        "@type": "Offer",
+        "price": "42.49",
+        "url": "https:\/\/www.vitalabo.com\/natures-plus\/source-of-life-animal-parade?sai=291",
+        "priceCurrency": "EUR",
+        "itemCondition": "https:\/\/schema.org\/NewCondition",
+        "availability": "https:\/\/schema.org\/InStock",
+        "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "AT",
+            "returnPolicyCategory": "https:\/\/schema.org\/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 30,
+            "returnMethod": "https:\/\/schema.org\/ReturnByMail",
+            "returnFees": "https:\/\/schema.org\/FreeReturn"
+        },
+        "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "businessDays": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "https:\/\/schema.org\/Monday",
+                    "https:\/\/schema.org\/Tuesday",
+                    "https:\/\/schema.org\/Wednesday",
+                    "https:\/\/schema.org\/Thursday",
+                    "https:\/\/schema.org\/Friday"
+                ]
+            },
+            "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": 0,
+                "currency": "EUR"
+            },
+            "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "AT"
+            },
+            "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "cutoffTime": "23:59:00Z",
+                "handlingTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 5,
+                    "maxValue": 10,
+                    "unitCode": "d"
+                },
+                "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 5,
+                    "maxValue": 5,
+                    "unitCode": "d"
+                }
+            }
+        }
+    },
+    "aggregateRating": {
+        "@context": "https:\/\/schema.org",
+        "@type": "AggregateRating",
+        "ratingCount": "31",
+        "ratingValue": "4.68",
+        "reviewCount": 1
+    },
+    "review": [
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "Review",
+            "datePublished": "2016-05-18",
+            "reviewBody": "Best vitamins for kids,what can buy in Europe",
+            "name": "So good",
+            "author": {
+                "@type": "Person",
+                "name": "Jarka"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            }
+        }
+    ]
+}
