@@ -85,9 +85,9 @@ class MedpexSpider(scrapy.Spider):
             categories = prod_det.get().strip()
 
         images = None
-        img_sel = response.css('div#more-images img.product')
+        img_sel = response.css('div#more-images > a')
         if img_sel:
-            images = ";".join([img.css('::attr(src)').get().strip() for img in img_sel])
+            images = ";".join([img.css('::attr(href)').get().strip() for img in img_sel])
         
         videos = None
         if video_i >= 0:
