@@ -99,7 +99,7 @@ class MedpexSpider(scrapy.Spider):
         if not existence:
             available_qty = 0
         else:
-            verf = response.css('div.stock--available').get().strip().lower().rsplit(maxsplit=2)
+            verf = response.css('div.stock--available::text').get().strip().lower().rsplit(maxsplit=2)
             if (verf[0] == 'nur noch'):
                 available_qty = int(verf[1].strip())
 
@@ -111,7 +111,7 @@ class MedpexSpider(scrapy.Spider):
         rating = None
         rat_sel = response.css('meta[itemprop="ratingValue"]')
         if rat_sel:
-            reviews = int(rat_sel.css('::attr(content)').get().strip())
+            rating = int(rat_sel.css('::attr(content)').get().strip())
         
         # https://support.medpex.de/hc/de/articles/4405361639186-Versandkosten-Versandinformationen
         shipping_fee = 3.32 # 统一运费
@@ -119,9 +119,9 @@ class MedpexSpider(scrapy.Spider):
             shipping_fee = 0.00
 
         weight = None
-        inhalt = inhalt.strip().lower().split(', ')
+        inhalt = inhalt.strip().lower().split(' ')
         if ('milliliter' in inhalt) or ('gramm' in inhalt):
-            weight = round(float(inhalt[0])/453.592, 2)
+            weight = round(float(inhalt[0].strip())/453.592, 2)
 
         yield {
             "date": datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),

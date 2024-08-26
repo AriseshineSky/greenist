@@ -35,7 +35,7 @@ class TestProduct(unittest.TestCase):
             "upc": None,
             "brand": "Hexal AG",
             "categories": 'kopfschmerzen-migraene',
-            "images": "https://images.medpex.de/medias/72727/It5BStqURhV27DeVnFIVka-30.jpg;https://images.medpex.de/medias/72814/FJvXu8T73TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/72876/xAlf73Uk4TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/73056/c0ZRzoWS7TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/31287/mE4AiNFVjEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31347/WCLME2B6lEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31397/MRtIlws6mEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31441/7Siz0AmXmEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31482/lJCl66xLnEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31516/Yu4J7xQqoEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31539/ZefUpTxToEcfXLf7q5eN1d-30.jpg",
+            "images": "https://images.medpex.de/medias/72702/oMEOB1pLWs7EqdO0wI4Mfa-30.jpg;https://images.medpex.de/medias/72781/fYaCwzkt2TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/72855/h8pBVydV3TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/73043/yFq3eIjC7TQH2cDxEFIVka-30.jpg;https://images.medpex.de/medias/31286/PKqJ0EeVjEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31346/RX2BHFc6lEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31397/WZ69eQ36mEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31440/cODEyz0XmEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31481/dnmbtgaLnEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31515/5kiTdDtqoEcfXLf7q5eN1d-30.jpg;https://images.medpex.de/medias/31539/If9Lk28ToEcfXLf7q5eN1d-30.jpg",
             "videos": None,
             "price": 7.85, # currency 1.11
             "available_qty": None,
@@ -98,7 +98,7 @@ class TestProduct(unittest.TestCase):
             "upc": "4066447774344",
             "brand": "WICK Pharma - Zweigniederlassung der Procter & Gamble GmbH",
             "categories": 'erkaeltungspraeparate',
-            "images": "https://images.medpex.de/medias/18721/FVZzEiZCDVm57DeVnFIVka-30.jpg;https://images.medpex.de/medias/48038/gacvXlUfTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48135/g6DqtGihTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48231/18u4Us7jTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48322/qjOCOVykTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48403/6Ahkou5mTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48470/5fp3NjkoTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/77683/tdLjxywpTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48500/UHOACu9WnhgdA3wTabMt68-30.jpg",
+            "images": "https://images.medpex.de/medias/18721/FVZzEiZCDVm57DeVnFIVka-30.jpg;https://images.medpex.de/medias/48037/LfSpmBTfTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48135/mb1B2NhhTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48231/QTWLXr6jTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48321/8x7bpWxkTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48403/NrPRgm4mTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48470/hiVMNtjoTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/77683/6OO5YQvpTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48500/n08FSy8WnhgdA3wTabMt68-30.jpg",
             "videos": "https://www.youtube-nocookie.com/embed/xro6sMuk0pI?controls=0",
             "price": 18.08, # currency 1.11
             "available_qty": None,
@@ -107,7 +107,7 @@ class TestProduct(unittest.TestCase):
             "shipping_fee": 3.32,
             "shipping_days_min": 1,
             "shipping_days_max": 2,
-            "weight": None,
+            "weight": 0.40,
         }
 
         keys = [
@@ -161,7 +161,7 @@ class TestProduct(unittest.TestCase):
             "upc": None,
             "brand": "TAD Pharma GmbH",
             "categories": 'gedaechtnis-konzentration',
-            "images": "https://images.medpex.de/medias/18721/FVZzEiZCDVm57DeVnFIVka-30.jpg;https://images.medpex.de/medias/48038/gacvXlUfTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48135/g6DqtGihTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48231/18u4Us7jTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48322/qjOCOVykTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48403/6Ahkou5mTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48470/5fp3NjkoTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/77683/tdLjxywpTN0dA3wTabMt68-30.jpg;https://images.medpex.de/medias/48500/UHOACu9WnhgdA3wTabMt68-30.jpg",
+            "images": "https://images.medpex.de/medias/37813/h62jTknNg30J2cDxEFIVka-30.jpg;https://images.medpex.de/medias/38412/joUiK7Jy2KcdA3wTabMt68-30.jpg;https://images.medpex.de/medias/38419/5buS9Pw8gAldA3wTabMt68-30.jpg;https://images.medpex.de/medias/38428/yUxQ6aljgAldA3wTabMt68-30.jpg;https://images.medpex.de/medias/38456/GRuBNFqRgAldA3wTabMt68-30.jpg",
             "videos": "https://www.youtube-nocookie.com/embed/n2jeAkHuVVo?controls=0",
             "price": 23.60, # currency 1.11
             "available_qty": 3,
@@ -170,7 +170,7 @@ class TestProduct(unittest.TestCase):
             "shipping_fee": 0.00,
             "shipping_days_min": 1,
             "shipping_days_max": 2,
-            "weight": 0.40,
+            "weight": None,
         }
 
         keys = [
@@ -224,7 +224,7 @@ class TestProduct(unittest.TestCase):
             "upc": None,
             "brand": "GlaxoSmithKline Consumer Healthcare GmbH & Co. KG - OTC Medicines",
             "categories": 'gelenke-muskeln-gelenke',
-            "images": "https://images.medpex.de/medias/85477/qTnIGjuPJIz57DeVnFIVka-30.jpg;https://images.medpex.de/medias/85477/sVk78A8NLIz57DeVnFIVka-30.jpg;https://images.medpex.de/medias/85477/ngO00VXKSj2N2cDxEFIVka-30.jpg",
+            "images": "https://images.medpex.de/medias/85477/IK1aPxOmJIz57DeVnFIVka-30.jpg;https://images.medpex.de/medias/85477/nGeGbEWlLIz57DeVnFIVka-30.jpg;https://images.medpex.de/medias/85477/QmhgIMWKSj2N2cDxEFIVka-30.jpg",
             "videos": None,
             "price": 29.96, # currency 1.11
             "available_qty": None,
