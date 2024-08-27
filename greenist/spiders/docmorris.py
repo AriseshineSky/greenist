@@ -23,8 +23,20 @@ class DocMorrisSpider(scrapy.Spider):
         existence = prod_info['available']
         title = prod_info['name']
 
+        description = '<div class="docmorris-descr">\n'
+
+        if prod_info['marketingText']:
+            description += '  <div>\n'
+            description += '    <h2>Produktinformationen</h2>\n'
+            description += f'    {prod_info['marketingText']}'
+            description += '  </div>\n'
+
         # TODO
-        description = None
+        if (prod_info['manualUrl']) or (prod_info['packageInsertUrls']):
+            pass
+
+        description += '</div>\n'
+        print(description)
 
         # https://squareup.com/us/en/the-bottom-line/operating-your-business/stock-keeping-unit#:~:text=SKU%20stands%20for%20%E2%80%9Cstock%20keeping,has%20a%20unique%20SKU%20number.
         sku = prod_info['readableId'] # SKU通常为8位
