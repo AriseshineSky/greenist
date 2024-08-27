@@ -25,6 +25,45 @@ class DmSpider(scrapy.Spider):
         # TODO
         description = None
 
+        if 'descriptionGroups' in prod_info:
+            description = '<div class="dm-descr">\n'
+
+            for descr in prod_info['descriptionGroups']:
+                if descr['header'] == 'Anschrift des Unternehmens': # 过滤制造元资料
+                    continue
+
+                description += '  <div>\n'
+                description += f'    <h2>{descr["header"]}</h2>\n'
+                
+                for dcb in descr['contentBlock']:
+                    description += '      <div>\n'
+
+                    if 'texts' in dcb:
+                        for dt in dcb['texts']:
+                            description += f'        <div>{dt}</div>\n'
+                    if 'images' in dcb:
+                        for img in dcb['images']:
+                            description += f'        <img src="{img["src"]}">\n'
+                    if 'table' in dcb:
+                        description += f'        <table>\n'
+                        description += f'          <tr><th>{dcb["table"][0][0]}</th><th>{dcb["table"][0][1]}</th></tr>\n'
+                        for zeile in dcb['table'][1:]:
+                            description += f'          <tr><td>{zeile[0]}</td><td>{zeile[1]}</td></tr>\n'
+                        description += f'        </table>\n'
+                    if 'bulletpoints' in dcb:
+                        description += f'        <ul>\n'
+                        for li in dcb['bulletpoints']:
+                            description += f'          <li>{li}</li>\n'
+                        description += f'        </ul>\n'
+                    
+                    description += '      </div>\n'
+                
+                description += '  </div>\n'
+
+            description += '</div>\n'
+        
+        print(description)
+
         upc = str(prod_info['gtin'])
         brand = prod_info['title']['brand']
         categories = " > ".join(prod_info['breadcrumbs'])
