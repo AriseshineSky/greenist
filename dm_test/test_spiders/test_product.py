@@ -9,7 +9,7 @@ class TestProduct(unittest.TestCase):
         self.crawler = get_crawler(DmSpider)
         self.spider = self.crawler._create_spider()
 
-    def test_unverfuegbar(self):
+    def test_unavailable_produkt(self):
         url = "https://products.dm.de/product/DE/products/detail/gtin/4008137009138"
         body = None
         with open(
@@ -28,7 +28,7 @@ class TestProduct(unittest.TestCase):
             "url": "https://www.dm.de/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel-p4008137009138.html",
             "source": "dm",
             "product_id": "1425051", # Artikelnummer意为商品号
-            "existence": True,
+            "existence": False,
             "title": "Früchtetee Heiße Zitrone mit Limette (15 Beutel), 37,5 g",
             # "description": None,
             "sku": "1425051",
@@ -38,6 +38,7 @@ class TestProduct(unittest.TestCase):
             "images": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1718668959/products/pim/4008137009138-3571267/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820874/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820873/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel",
             "videos": None,
             "price": 3.16, # currency 1.11
+            "available_qty": 0,
             "reviews": 53,
             "rating": 4.7,
             "shipping_fee": 5.52,
@@ -60,6 +61,7 @@ class TestProduct(unittest.TestCase):
             "images",
             "videos",
             "price",
+            "available_qty",
             "reviews",
             "rating",
             "shipping_fee",
@@ -70,7 +72,7 @@ class TestProduct(unittest.TestCase):
         for key in keys:
             self.assertEqual(product[key], target_product[key])
 
-    def test_verfuegbar_nr1(self):
+    def test_available_produkt_v1(self):
         url = "https://products.dm.de/product/DE/products/detail/gtin/4066447774344"
         body = None
         with open(
@@ -129,7 +131,7 @@ class TestProduct(unittest.TestCase):
         for key in keys:
             self.assertEqual(product[key], target_product[key])
 
-    def test_verfuegbar_nr2(self):
+    def test_available_produkt_v2(self):
         url = "https://products.dm.de/product/DE/products/detail/gtin/4066447731538"
         body = None
         with open(
@@ -190,7 +192,7 @@ class TestProduct(unittest.TestCase):
         for key in keys:
             self.assertEqual(product[key], target_product[key])
 
-    def test_verfuegbar_nr3(self):
+    def test_available_produkt_v3(self):
         url = "https://products.dm.de/product/DE/products/detail/gtin/8700216386760"
         body = None
         with open(
