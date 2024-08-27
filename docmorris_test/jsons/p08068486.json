@@ -1,0 +1,1125 @@
+{
+    "props": {
+        "pageProps": {
+            "product": {
+                "code": "08068486",
+                "readableId": "7YTK1Z5G",
+                "productId": "b807667a-b87d-40a7-ad50-0eb4aed4e0b1",
+                "packagingSize": "60 St",
+                "quantity": 60,
+                "baseprice": "0,05 €/St",
+                "slug": "docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                "url": "/docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                "available": true,
+                "prices": {
+                    "salesPrice": {
+                        "value": 2.99,
+                        "formattedValue": "2,99 €"
+                    },
+                    "recommendedRetailPrice": null,
+                    "savings": null,
+                    "bonus": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "maxRefundDifference": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "additionalPayment": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "savingsPercentageFormatted": "",
+                    "metadata": {
+                        "displayUVP": true,
+                        "displaySaving": true,
+                        "displayBonus": false
+                    }
+                },
+                "trafficChannel": null,
+                "images": [
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    },
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    },
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    },
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    },
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    }
+                ],
+                "bestSeller": {
+                    "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                    "name": "DocMorris Apotheke",
+                    "baseprice": "0,05 €/St",
+                    "hasStock": true,
+                    "savingsPercentageFormatted": "",
+                    "prices": {
+                        "salesPrice": {
+                            "value": 2.99,
+                            "formattedValue": "2,99 €"
+                        }
+                    }
+                },
+                "sellers": [],
+                "badges": [],
+                "eans": [
+                    "4337256267168"
+                ],
+                "name": "DocMorris Vitamin D3 Tabletten 800 I.E. 60 St",
+                "brand": null,
+                "supplier": "DocMorris",
+                "supplierId": "08a380e0-da2b-4571-89bf-1558ebf938fb",
+                "dosageForm": "Tabletten",
+                "defaultSaleCondition": "OR",
+                "salesType": "bpc",
+                "mainCategory": {
+                    "id": "7TPHZ61C",
+                    "categoryId": "ec90bc6f-3c2d-426d-9eb8-44dc233cb76e",
+                    "name": "Vitamine, Sport \u0026 Ernährung",
+                    "url": "/vitamine-sport-ernaehrung",
+                    "child": {
+                        "id": "KFVND",
+                        "categoryId": "f28c7c9f-09ae-4218-821a-bec344998289",
+                        "name": "Vitamine \u0026 Mineralstoffe",
+                        "url": "/vitamine-sport-ernaehrung/vitamine-mineralstoffe",
+                        "child": {
+                            "id": "XM6HN",
+                            "categoryId": "93de51ef-60b6-4276-a92e-641cb4309cca",
+                            "name": "Vitamine",
+                            "url": "/vitamine-sport-ernaehrung/vitamine-mineralstoffe/vitamine",
+                            "child": {
+                                "id": "2MHC5",
+                                "categoryId": "2c8efaba-66fd-42c1-a1a0-1276830d8c19",
+                                "name": "Vitamin D",
+                                "url": "/vitamine-sport-ernaehrung/vitamine-mineralstoffe/vitamine/vitamin-d",
+                                "child": null
+                            }
+                        }
+                    }
+                },
+                "breadcrumbs": [
+                    {
+                        "id": "7TPHZ61C",
+                        "categoryId": "ec90bc6f-3c2d-426d-9eb8-44dc233cb76e",
+                        "name": "Vitamine, Sport \u0026 Ernährung",
+                        "url": "vitamine-sport-ernaehrung",
+                        "child": null
+                    },
+                    {
+                        "id": "KFVND",
+                        "categoryId": "f28c7c9f-09ae-4218-821a-bec344998289",
+                        "name": "Vitamine \u0026 Mineralstoffe",
+                        "url": "vitamine-mineralstoffe",
+                        "child": null
+                    },
+                    {
+                        "id": "XM6HN",
+                        "categoryId": "93de51ef-60b6-4276-a92e-641cb4309cca",
+                        "name": "Vitamine",
+                        "url": "vitamine",
+                        "child": null
+                    },
+                    {
+                        "id": "2MHC5",
+                        "categoryId": "2c8efaba-66fd-42c1-a1a0-1276830d8c19",
+                        "name": "Vitamin D",
+                        "url": "vitamin-d",
+                        "child": null
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": "2MHC5",
+                        "categoryId": "2c8efaba-66fd-42c1-a1a0-1276830d8c19",
+                        "name": "Vitamin D",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "XM6HN",
+                        "categoryId": "93de51ef-60b6-4276-a92e-641cb4309cca",
+                        "name": "Vitamine",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "KFVND",
+                        "categoryId": "f28c7c9f-09ae-4218-821a-bec344998289",
+                        "name": "Vitamine \u0026 Mineralstoffe",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "7TPHZ61C",
+                        "categoryId": "ec90bc6f-3c2d-426d-9eb8-44dc233cb76e",
+                        "name": "Vitamine, Sport \u0026 Ernährung",
+                        "url": null,
+                        "child": null
+                    }
+                ],
+                "productGroup": "08068486",
+                "rating": null,
+                "reviewCount": null,
+                "marketingText": "\u003cp\u003e\u003c/p\u003e\n\n\u003cp\u003eVitamin D ist essenziell für den menschlichen Körper und unterstützt insbesondere den Erhalt von normalen Knochen und Zähnen, da es zu einer normalen Aufnahme und Verwertung von Calcium beiträgt. Weiterhin trägt Vitamin D zu einer normalen Funktion der Muskeln und des Immunsystems bei.\n\u003c/p\u003e\n\n\u003cp\u003eVitamin D3 kommt vor allem in fettreichen Fischen und in geringem Maße auch z. B. in Milch, Käse und Eiern vor. Durch regelmäßige Einwirkung von Sonnenlicht auf die Haut kann Vitamin D vom Körper selbst gebildet werden. Abhängig von verschiedenen Faktoren, wie der Sonneneinstrahlung, der Klimazone oder des jeweiligen Hauttyps, wird der Eigenbedarf in unterschiedlichem Maße gedeckt.\n\u003c/p\u003e\n\n\u003cp\u003eBesonders in sonnenarmen und kälteren Monaten kommt die Haut mit weniger Sonnenlicht in Berührung. Eine Ergänzung über die Nahrung kann daher sinnvoll sein.\u003c/p\u003e\n\u003cp\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\u003c/p\u003e\n\n\u003cp\u003e*Vitamin D trägt zur Erhaltung normaler Knochen, normaler Zähne und einer normalen Muskelfunktion sowie zu einer normalen Funktion des Immunsystems bei. \n\u003c/p\u003e\n\n\u003cp\u003eVitamin D trägt zu einem normalen Calciumspiegel im Blut bei.\u003c/p\u003e\n\u003cp\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\u003c/p\u003e\n\n\u003ch3\u003eVerzehrempfehlung:\u003c/h3\u003e\n\u003cp\u003e\u003c/p\u003e\n\n\u003cp\u003e1 x täglich eine Tablette vor einer Mahlzeit unzerkaut mit reichlich Flüssigkeit einnehmen.\u003c/p\u003e\n\u003cp\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\u003c/p\u003e\n\n\u003ch4\u003eHinweise:\u003c/h4\u003e\n\u003cp\u003e\u003c/p\u003e\n\n\u003cp\u003eDie angegebene empfohlene tägliche Verzehrmenge darf nicht überschritten werden.\n\u003c/p\u003e\n\n\u003cp\u003eNahrungsergänzungsmittel sollten nicht als Ersatz für eine ausgewogene und abwechslungsreiche Ernährung und eine gesunde Lebensweise verwendet werden.\n\u003c/p\u003e\n\n\u003cp\u003eNicht für Kinder und Jugendliche unter 18 Jahren geeignet.\n\u003c/p\u003e\n\n\u003cp\u003eAußerhalb der Reichweite von kleinen Kindern lagern.\u003c/p\u003e",
+                "valuePropositions": [],
+                "manualUrl": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/lebensmittelinfo-docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0.pdf",
+                "packageInsertUrls": [],
+                "pharmaceuticalInformation": [],
+                "saleConditions": {
+                    "OR": [
+                        {
+                            "code": "08068486",
+                            "readableId": "7YTK1Z5G",
+                            "productId": "b807667a-b87d-40a7-ad50-0eb4aed4e0b1",
+                            "packagingSize": "60 St",
+                            "quantity": 60,
+                            "baseprice": "0,05 €/St",
+                            "slug": "docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                            "url": "/docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                            "available": true,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 2.99,
+                                    "formattedValue": "2,99 €"
+                                },
+                                "recommendedRetailPrice": null,
+                                "savings": null,
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "0,05 €/St",
+                                "hasStock": true,
+                                "savingsPercentageFormatted": "",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 2.99,
+                                        "formattedValue": "2,99 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ],
+                    "PKV": [
+                        {
+                            "code": "08068486",
+                            "readableId": "7YTK1Z5G",
+                            "productId": "b807667a-b87d-40a7-ad50-0eb4aed4e0b1",
+                            "packagingSize": "60 St",
+                            "quantity": 60,
+                            "baseprice": "0,05 €/St",
+                            "slug": "docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                            "url": "/docmorris-vitamin-d3-tabletten-800-ie/08068486",
+                            "available": true,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 2.99,
+                                    "formattedValue": "2,99 €"
+                                },
+                                "recommendedRetailPrice": null,
+                                "savings": null,
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-front-1714032135798240.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-back-1714032135457247.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-left-1714032135849092.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                },
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps90r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps420r/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-right-1714032136126479.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "0,05 €/St",
+                                "hasStock": true,
+                                "savingsPercentageFormatted": "",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 2.99,
+                                        "formattedValue": "2,99 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ]
+                },
+                "composition": {
+                    "activeIngredients": [],
+                    "additives": []
+                },
+                "structuredData": "[{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://www.docmorris.de/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.docmorris.de/search?query={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}},{\"@type\":\"Organization\",\"url\":\"https://www.docmorris.de/\",\"name\":\"DocMorris\",\"logo\":\"https://www.docmorris.de/assets/img/brandlogos/docmorris-openGraph.jpg\",\"sameAs\":[\"https://www.facebook.com/DocMorris\",\"https://www.twitter.com/docmorris\",\"https://plus.google.com/+DocMorris\",\"https://www.instagram.com/docmorris/\",\"https://www.youtube.com/docmorris/\"],\"contactPoint\":[{\"@type\":\"ContactPoint\",\"telephone\":\"+49 800 480 80 00\",\"contactType\":\"customer service\"}]}]},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://www.docmorris.de\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Vitamine, Sport \u0026 Ernährung\",\"item\":\"https://www.docmorris.de/vitamine-sport-ernaehrung\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Vitamine \u0026 Mineralstoffe\",\"item\":\"https://www.docmorris.de/vitamine-sport-ernaehrung/vitamine-mineralstoffe\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Vitamine\",\"item\":\"https://www.docmorris.de/vitamine-sport-ernaehrung/vitamine-mineralstoffe/vitamine\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Vitamin D\",\"item\":\"https://www.docmorris.de/vitamine-sport-ernaehrung/vitamine-mineralstoffe/vitamine/vitamin-d\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"DocMorris Vitamin D3 Tabletten 800 I.E. 60 St\",\"item\":\"https://www.docmorris.de/docmorris-vitamin-d3-tabletten-800-ie/08068486\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"https://www.docmorris.de/docmorris-vitamin-d3-tabletten-800-ie/08068486\",\"mpn\":\"08068486\",\"sku\":\"08068486\",\"name\":\"DocMorris Vitamin D3 Tabletten 800 I.E. 60 St - 60 St\",\"category\":\"Vitamin D\",\"image\":\"https://statics.docmorris.de/static/produkte/7YTK1Z5G/docmorris/ps300/docmorris-vitamin-d3-tabletten-800-i-e-60-st-08068486-0-1714032136152762.jpeg\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"DocMorris\"},\"description\":\"DocMorris Vitamin D3 Tabletten 800 I.E. 60 St - 60 St günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/docmorris-vitamin-d3-tabletten-800-ie/08068486\",\"category\":\"Vitamin D\",\"price\":2.99,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"60 St\"}}}]",
+                "isDrug": null,
+                "isVeterinaryDrug": null,
+                "faq": [],
+                "pharmaNotes": [],
+                "crossSellingEntry": null,
+                "sponsoredAds": {}
+            },
+            "saleCondition": "OR"
+        },
+        "__N_SSP": true
+    },
+    "page": "/[product-name]/[code]",
+    "query": {
+        "product-name": "docmorris-vitamin-d3-tabletten-800-ie",
+        "code": "08068486"
+    },
+    "buildId": "Pa9Cw4rPZUVyQlPeQFsNf",
+    "runtimeConfig": {
+        "sessionRefetchIntervalInSeconds": "300",
+        "gtmId": "GTM-KBGX7K8",
+        "gtmScriptParams": "",
+        "bazaarvoiceScriptUrl": "https://apps.bazaarvoice.com/deployments/docmorris/new_frontend/production/de_DE/bv.js",
+        "scanditApiKey": "AZHjKg+GKhyIO6iEgtAMPW8kT1okINbyqHZggvgOtveRK13fTlcARMV84l5yTslyIU7dmaJXBgQJWdWnPzqRIa0QUm5hc4YCPHFTH41paBWdeEWhNWdOtrJVFcGrW9Y7LXOwvtc/EpwLPKvt3SpNMkZBVwfRDT0uPV0tlWNjR4s5k9+DIdYVJm2oH+S6Rz4wH6scGjm2GDazdF9lIZIwd3JAZOVEqh4fwwhS3VcmnWaVZO8esPTr/6kYE6JU8OABQPnOHYkBuiyRIE38Iv0vYS5+mTy+B1AbUs5qX7HcaVz6EF9oQrZAi6c6rIAS8t1HyYpoPXuDUqkTbuyQAJkkQwJfJdbmvUCj5TY8FYcV6kbwMolDKuA0p9boG2nLJl/iSmcdH03JHY3i3uJQqnPMmo3dN7609GTIMuZ9yvrKtBjoPg44VhsD1X+AyUXvjxs3I6Igg8Nk3a4Kj3FUBDa9B/0/YHhSuOrNC163yc2cNIM8sO27JYZNvc/X8Ts/Gmlr4ac/v5D/4/91dRB/6QTUG4sLfG0CWsQDJ6tpjx8CYhfuy6+1OZc8A3z5Y5aGpfVV01JVKQiJklBK3OT52OOOHLFWSKrM7fXpHrCxMQsGXilduvRoasqFvvQ5tohbr8ID6ahBZcnQIab3LvsZb2IQV9xFlhgmozRp4yVzNU+hDSSKyVwiK/NupfY3Ht5/HYcy7e1ta+w063qDHx7CEifsP4uNQNgn4u3Ys3qjNPlwLiLFQQFoRZvlSbqNs8ot0w1qPafTbRQL30l4LrTxN8MV8HGvdg8MtjuhXT2PCb/8C+VhTUo+nrLg7CU+nqzwdseEafwmiEoq",
+        "domain": "https://www.docmorris.de",
+        "adyenEnv": "live",
+        "adyenClientKey": "live_4IWCDSSAXBCJPDX5IICK6DVWAIF23WRA",
+        "publicPath": "https://www.docmorris.de",
+        "nextExternalServerUrl": "https://www.docmorris.de/new-web/api",
+        "appVersion": "",
+        "activePartnerCodes": "BSW,Premium,bleibgesund,IKK,TK,Sympany",
+        "rxChannel": "docmorris_rx",
+        "recaptchaPublicKey": "6Le6WJYnAAAAALJjhVYzuyZyLbggy529cNWSyA2u",
+        "cmsApiRoot": "http://docmorris-cms-pro/api",
+        "nextPublicEnv": "production",
+        "staticUrl": "https://statics.docmorris.de",
+        "algolia": {
+            "appId": "R7NAV8R2RN",
+            "apiKey": "f21022624b7547ad443f573082a75de1",
+            "productsIndex": "pro_docmorris_products",
+            "categoriesIndex": "pro_docmorris_categories",
+            "rxProductsIndex": "pro_docmorris_products_rx"
+        },
+        "zendeskPublicKey": "66955451-cbfb-4b8b-8411-397eba046cf3",
+        "googleMapsApiKey": "AIzaSyByelFJmZO-1NIYXn_bsEaiG92hoPJNjmk",
+        "logger": {
+            "isCensorSensitiveValues": true
+        }
+    },
+    "isFallback": false,
+    "isExperimentalCompile": false,
+    "gssp": true,
+    "locale": "de",
+    "locales": [
+        "de"
+    ],
+    "defaultLocale": "de",
+    "scriptLoader": [
+        {
+            "id": "ze-snippet",
+            "src": "https://static.zdassets.com/ekr/snippet.js?key=66955451-cbfb-4b8b-8411-397eba046cf3",
+            "strategy": "lazyOnload"
+        }
+    ]
+}
