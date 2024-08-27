@@ -1,0 +1,1122 @@
+{
+    "props": {
+        "pageProps": {
+            "product": {
+                "code": "04982721",
+                "readableId": "FX5RAAYX",
+                "productId": "fe6912e5-4006-4e64-bc21-61f60569591e",
+                "packagingSize": "30 ml",
+                "quantity": 30,
+                "baseprice": "1.011,33 €/l",
+                "slug": "hitzer-loesung/04982721",
+                "url": "/hitzer-loesung/04982721",
+                "available": false,
+                "prices": {
+                    "salesPrice": {
+                        "value": 30.34,
+                        "formattedValue": "30,34 €"
+                    },
+                    "recommendedRetailPrice": {
+                        "value": 35.7,
+                        "formattedValue": "35,70 €"
+                    },
+                    "savings": {
+                        "value": 5.36,
+                        "formattedValue": "5,36 €"
+                    },
+                    "bonus": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "maxRefundDifference": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "additionalPayment": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "savingsPercentageFormatted": "15%",
+                    "metadata": {
+                        "displayUVP": true,
+                        "displaySaving": true,
+                        "displayBonus": false
+                    }
+                },
+                "trafficChannel": null,
+                "images": [
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_6a098c8404.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_6a098c8404.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_6a098c8404.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_6a098c8404.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_6a098c8404.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    }
+                ],
+                "bestSeller": {
+                    "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                    "name": "DocMorris Apotheke",
+                    "baseprice": "1.011,33 €/l",
+                    "hasStock": false,
+                    "savingsPercentageFormatted": "15%",
+                    "prices": {
+                        "salesPrice": {
+                            "value": 30.34,
+                            "formattedValue": "30,34 €"
+                        }
+                    }
+                },
+                "sellers": [],
+                "badges": [],
+                "eans": [],
+                "name": "Hitzer Lösung 30 ml",
+                "brand": null,
+                "supplier": "HerbaLux Deutschland GmbH",
+                "supplierId": "0a7cc701-eb73-41da-a4ff-44a852f3454d",
+                "dosageForm": "Lösung",
+                "defaultSaleCondition": "OR",
+                "salesType": "bpc",
+                "mainCategory": null,
+                "breadcrumbs": null,
+                "categories": [],
+                "productGroup": "04982721",
+                "rating": null,
+                "reviewCount": null,
+                "marketingText": null,
+                "valuePropositions": [
+                    "Schneller \u0026 zuverlässiger Versand",
+                    "Deutschlandweite Lieferung an Ihre Wunschadresse",
+                    "Vielfältige Zahlarten"
+                ],
+                "manualUrl": "https://graphql.docmorris.de/catalog/leaflets/04982721-lmiv.pdf",
+                "packageInsertUrls": [
+                    "https://graphql.docmorris.de/catalog/leaflets/04982721-beipackzettel.pdf"
+                ],
+                "pharmaceuticalInformation": [],
+                "saleConditions": {
+                    "OR": [
+                        {
+                            "code": "04891473",
+                            "readableId": "FX56I8DK",
+                            "productId": "81c49343-24ca-4db9-9d8d-7fb254d2e3dd",
+                            "packagingSize": "10X2 ml",
+                            "quantity": null,
+                            "baseprice": "1.264,50 €/l",
+                            "slug": "hitzer-loesung/04891473",
+                            "url": "/hitzer-loesung/04891473",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 25.29,
+                                    "formattedValue": "25,29 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 29.75,
+                                    "formattedValue": "29,75 €"
+                                },
+                                "savings": {
+                                    "value": 4.46,
+                                    "formattedValue": "4,46 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "14%",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.264,50 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "14%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 25.29,
+                                        "formattedValue": "25,29 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04982678",
+                            "readableId": "FX5J0BQ2",
+                            "productId": "1c9aded5-d379-44ec-9be9-1016d5732546",
+                            "packagingSize": "20 ml",
+                            "quantity": 20,
+                            "baseprice": "1.011,50 €/l",
+                            "slug": "hitzer-loesung/04982678",
+                            "url": "/hitzer-loesung/04982678",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 20.23,
+                                    "formattedValue": "20,23 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 23.8,
+                                    "formattedValue": "23,80 €"
+                                },
+                                "savings": {
+                                    "value": 3.57,
+                                    "formattedValue": "3,57 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "15%",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,50 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 20.23,
+                                        "formattedValue": "20,23 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04982721",
+                            "readableId": "FX5RAAYX",
+                            "productId": "fe6912e5-4006-4e64-bc21-61f60569591e",
+                            "packagingSize": "30 ml",
+                            "quantity": 30,
+                            "baseprice": "1.011,33 €/l",
+                            "slug": "hitzer-loesung/04982721",
+                            "url": "/hitzer-loesung/04982721",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 30.34,
+                                    "formattedValue": "30,34 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 35.7,
+                                    "formattedValue": "35,70 €"
+                                },
+                                "savings": {
+                                    "value": 5.36,
+                                    "formattedValue": "5,36 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "15%",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,33 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 30.34,
+                                        "formattedValue": "30,34 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04982744",
+                            "readableId": "FX53CGAV",
+                            "productId": "31de6e02-5b98-4889-a4b1-df7d39c3bb71",
+                            "packagingSize": "50 ml",
+                            "quantity": 50,
+                            "baseprice": "1.011,40 €/l",
+                            "slug": "hitzer-loesung/04982744",
+                            "url": "/hitzer-loesung/04982744",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 50.57,
+                                    "formattedValue": "50,57 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 59.5,
+                                    "formattedValue": "59,50 €"
+                                },
+                                "savings": {
+                                    "value": 8.93,
+                                    "formattedValue": "8,93 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "15%",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_6a098c8404.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,40 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 50.57,
+                                        "formattedValue": "50,57 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ],
+                    "PKV": [
+                        {
+                            "code": "04982721",
+                            "readableId": "FX5RAAYX",
+                            "productId": "fe6912e5-4006-4e64-bc21-61f60569591e",
+                            "packagingSize": "30 ml",
+                            "quantity": 30,
+                            "baseprice": "1.011,33 €/l",
+                            "slug": "hitzer-loesung/04982721",
+                            "url": "/hitzer-loesung/04982721",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 30.34,
+                                    "formattedValue": "30,34 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 35.7,
+                                    "formattedValue": "35,70 €"
+                                },
+                                "savings": {
+                                    "value": 5.36,
+                                    "formattedValue": "5,36 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,33 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 30.34,
+                                        "formattedValue": "30,34 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04982678",
+                            "readableId": "FX5J0BQ2",
+                            "productId": "1c9aded5-d379-44ec-9be9-1016d5732546",
+                            "packagingSize": "20 ml",
+                            "quantity": 20,
+                            "baseprice": "1.011,50 €/l",
+                            "slug": "hitzer-loesung/04982678",
+                            "url": "/hitzer-loesung/04982678",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 20.23,
+                                    "formattedValue": "20,23 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 23.8,
+                                    "formattedValue": "23,80 €"
+                                },
+                                "savings": {
+                                    "value": 3.57,
+                                    "formattedValue": "3,57 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,50 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 20.23,
+                                        "formattedValue": "20,23 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04982744",
+                            "readableId": "FX53CGAV",
+                            "productId": "31de6e02-5b98-4889-a4b1-df7d39c3bb71",
+                            "packagingSize": "50 ml",
+                            "quantity": 50,
+                            "baseprice": "1.011,40 €/l",
+                            "slug": "hitzer-loesung/04982744",
+                            "url": "/hitzer-loesung/04982744",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 50.57,
+                                    "formattedValue": "50,57 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 59.5,
+                                    "formattedValue": "59,50 €"
+                                },
+                                "savings": {
+                                    "value": 8.93,
+                                    "formattedValue": "8,93 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.011,40 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "15%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 50.57,
+                                        "formattedValue": "50,57 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        },
+                        {
+                            "code": "04891473",
+                            "readableId": "FX56I8DK",
+                            "productId": "81c49343-24ca-4db9-9d8d-7fb254d2e3dd",
+                            "packagingSize": "10X2 ml",
+                            "quantity": null,
+                            "baseprice": "1.264,50 €/l",
+                            "slug": "hitzer-loesung/04891473",
+                            "url": "/hitzer-loesung/04891473",
+                            "available": false,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 25.29,
+                                    "formattedValue": "25,29 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 29.75,
+                                    "formattedValue": "29,75 €"
+                                },
+                                "savings": {
+                                    "value": 4.46,
+                                    "formattedValue": "4,46 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps90r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps300r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_rx_01934e2573.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "1.264,50 €/l",
+                                "hasStock": false,
+                                "savingsPercentageFormatted": "14%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 25.29,
+                                        "formattedValue": "25,29 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ]
+                },
+                "composition": {
+                    "activeIngredients": [],
+                    "additives": []
+                },
+                "structuredData": "[{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://www.docmorris.de/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.docmorris.de/search?query={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}},{\"@type\":\"Organization\",\"url\":\"https://www.docmorris.de/\",\"name\":\"DocMorris\",\"logo\":\"https://www.docmorris.de/assets/img/brandlogos/docmorris-openGraph.jpg\",\"sameAs\":[\"https://www.facebook.com/DocMorris\",\"https://www.twitter.com/docmorris\",\"https://plus.google.com/+DocMorris\",\"https://www.instagram.com/docmorris/\",\"https://www.youtube.com/docmorris/\"],\"contactPoint\":[{\"@type\":\"ContactPoint\",\"telephone\":\"+49 800 480 80 00\",\"contactType\":\"customer service\"}]}]},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://www.docmorris.de\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Hitzer Lösung 30 ml\",\"item\":\"https://www.docmorris.de/hitzer-loesung/04982721\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"https://www.docmorris.de/hitzer-loesung/04982721\",\"mpn\":\"04982721\",\"sku\":\"04982721\",\"name\":\"Hitzer Lösung 30 ml - 30 ml\",\"category\":\"\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"HerbaLux Deutschland GmbH\"},\"description\":\"Hitzer Lösung 30 ml - 30 ml günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/OutOfStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04982721\",\"category\":\"\",\"price\":30.34,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"30 ml\"}},\"isSimilarTo\":[{\"@type\":\"Product\",\"mpn\":\"04982678\",\"sku\":\"04982678\",\"name\":\"Hitzer Lösung 30 ml - 20 ml\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04982678\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"HerbaLux Deutschland GmbH\"},\"description\":\"Hitzer Lösung 30 ml - 20 ml günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/OutOfStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04982678\",\"price\":20.23,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"20 ml\"}}},{\"@type\":\"Product\",\"mpn\":\"04982744\",\"sku\":\"04982744\",\"name\":\"Hitzer Lösung 30 ml - 50 ml\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04982744\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"HerbaLux Deutschland GmbH\"},\"description\":\"Hitzer Lösung 30 ml - 50 ml günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/OutOfStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04982744\",\"price\":50.57,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"50 ml\"}}},{\"@type\":\"Product\",\"mpn\":\"04891473\",\"sku\":\"04891473\",\"name\":\"Hitzer Lösung 30 ml - 10X2 ml\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04891473\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"HerbaLux Deutschland GmbH\"},\"description\":\"Hitzer Lösung 30 ml - 10X2 ml günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/OutOfStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/hitzer-loesung/04891473\",\"price\":25.29,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"10X2 ml\"}}}]}]",
+                "isDrug": false,
+                "isVeterinaryDrug": false,
+                "faq": [],
+                "pharmaNotes": [],
+                "crossSellingEntry": null,
+                "sponsoredAds": {}
+            },
+            "saleCondition": "OR"
+        },
+        "__N_SSP": true
+    },
+    "page": "/[product-name]/[code]",
+    "query": {
+        "queryID": "a5e9652c3170c964e915e11df59d9e7c",
+        "position": "1",
+        "objectID": "FX5RAAYX_6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+        "product-name": "hitzer-loesung",
+        "code": "04982721"
+    },
+    "buildId": "Pa9Cw4rPZUVyQlPeQFsNf",
+    "runtimeConfig": {
+        "sessionRefetchIntervalInSeconds": "300",
+        "gtmId": "GTM-KBGX7K8",
+        "gtmScriptParams": "",
+        "bazaarvoiceScriptUrl": "https://apps.bazaarvoice.com/deployments/docmorris/new_frontend/production/de_DE/bv.js",
+        "scanditApiKey": "AZHjKg+GKhyIO6iEgtAMPW8kT1okINbyqHZggvgOtveRK13fTlcARMV84l5yTslyIU7dmaJXBgQJWdWnPzqRIa0QUm5hc4YCPHFTH41paBWdeEWhNWdOtrJVFcGrW9Y7LXOwvtc/EpwLPKvt3SpNMkZBVwfRDT0uPV0tlWNjR4s5k9+DIdYVJm2oH+S6Rz4wH6scGjm2GDazdF9lIZIwd3JAZOVEqh4fwwhS3VcmnWaVZO8esPTr/6kYE6JU8OABQPnOHYkBuiyRIE38Iv0vYS5+mTy+B1AbUs5qX7HcaVz6EF9oQrZAi6c6rIAS8t1HyYpoPXuDUqkTbuyQAJkkQwJfJdbmvUCj5TY8FYcV6kbwMolDKuA0p9boG2nLJl/iSmcdH03JHY3i3uJQqnPMmo3dN7609GTIMuZ9yvrKtBjoPg44VhsD1X+AyUXvjxs3I6Igg8Nk3a4Kj3FUBDa9B/0/YHhSuOrNC163yc2cNIM8sO27JYZNvc/X8Ts/Gmlr4ac/v5D/4/91dRB/6QTUG4sLfG0CWsQDJ6tpjx8CYhfuy6+1OZc8A3z5Y5aGpfVV01JVKQiJklBK3OT52OOOHLFWSKrM7fXpHrCxMQsGXilduvRoasqFvvQ5tohbr8ID6ahBZcnQIab3LvsZb2IQV9xFlhgmozRp4yVzNU+hDSSKyVwiK/NupfY3Ht5/HYcy7e1ta+w063qDHx7CEifsP4uNQNgn4u3Ys3qjNPlwLiLFQQFoRZvlSbqNs8ot0w1qPafTbRQL30l4LrTxN8MV8HGvdg8MtjuhXT2PCb/8C+VhTUo+nrLg7CU+nqzwdseEafwmiEoq",
+        "domain": "https://www.docmorris.de",
+        "adyenEnv": "live",
+        "adyenClientKey": "live_4IWCDSSAXBCJPDX5IICK6DVWAIF23WRA",
+        "publicPath": "https://www.docmorris.de",
+        "nextExternalServerUrl": "https://www.docmorris.de/new-web/api",
+        "appVersion": "",
+        "activePartnerCodes": "BSW,Premium,bleibgesund,IKK,TK,Sympany",
+        "rxChannel": "docmorris_rx",
+        "recaptchaPublicKey": "6Le6WJYnAAAAALJjhVYzuyZyLbggy529cNWSyA2u",
+        "cmsApiRoot": "http://docmorris-cms-pro/api",
+        "nextPublicEnv": "production",
+        "staticUrl": "https://statics.docmorris.de",
+        "algolia": {
+            "appId": "R7NAV8R2RN",
+            "apiKey": "f21022624b7547ad443f573082a75de1",
+            "productsIndex": "pro_docmorris_products",
+            "categoriesIndex": "pro_docmorris_categories",
+            "rxProductsIndex": "pro_docmorris_products_rx"
+        },
+        "zendeskPublicKey": "66955451-cbfb-4b8b-8411-397eba046cf3",
+        "googleMapsApiKey": "AIzaSyByelFJmZO-1NIYXn_bsEaiG92hoPJNjmk",
+        "logger": {
+            "isCensorSensitiveValues": true
+        }
+    },
+    "isFallback": false,
+    "isExperimentalCompile": false,
+    "gssp": true,
+    "locale": "de",
+    "locales": [
+        "de"
+    ],
+    "defaultLocale": "de",
+    "scriptLoader": [
+        {
+            "id": "ze-snippet",
+            "src": "https://static.zdassets.com/ekr/snippet.js?key=66955451-cbfb-4b8b-8411-397eba046cf3",
+            "strategy": "lazyOnload"
+        }
+    ]
+}

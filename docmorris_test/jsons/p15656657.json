@@ -1,0 +1,536 @@
+{
+    "props": {
+        "pageProps": {
+            "product": {
+                "code": "15656657",
+                "readableId": "FX5AG5Z3",
+                "productId": "33286c28-f941-455c-8eae-b29bb4ddfe7e",
+                "packagingSize": "1 St",
+                "quantity": 1,
+                "baseprice": "5,29 €/St",
+                "slug": "thermometer-10100-c-20-cm-lang/15656657",
+                "url": "/thermometer-10100-c-20-cm-lang/15656657",
+                "available": true,
+                "prices": {
+                    "salesPrice": {
+                        "value": 5.29,
+                        "formattedValue": "5,29 €"
+                    },
+                    "recommendedRetailPrice": {
+                        "value": 5.35,
+                        "formattedValue": "5,35 €"
+                    },
+                    "savings": {
+                        "value": 0.06,
+                        "formattedValue": "0,06 €"
+                    },
+                    "bonus": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "maxRefundDifference": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "additionalPayment": {
+                        "value": 0,
+                        "formattedValue": "0,00 €"
+                    },
+                    "savingsPercentageFormatted": "1%",
+                    "metadata": {
+                        "displayUVP": true,
+                        "displaySaving": true,
+                        "displayBonus": false
+                    }
+                },
+                "trafficChannel": null,
+                "images": [
+                    {
+                        "variants": {
+                            "90": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 90,
+                                "height": 90
+                            },
+                            "300": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 300,
+                                "height": 300
+                            },
+                            "420": {
+                                "formats": {
+                                    "webp": {
+                                        "resolutions": {
+                                            "1x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            },
+                                            "2x": {
+                                                "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                            }
+                                        }
+                                    }
+                                },
+                                "width": 420,
+                                "height": 420
+                            }
+                        }
+                    }
+                ],
+                "bestSeller": {
+                    "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                    "name": "DocMorris Apotheke",
+                    "baseprice": "5,29 €/St",
+                    "hasStock": true,
+                    "savingsPercentageFormatted": "1%",
+                    "prices": {
+                        "salesPrice": {
+                            "value": 5.29,
+                            "formattedValue": "5,29 €"
+                        }
+                    }
+                },
+                "sellers": [],
+                "badges": [],
+                "eans": [
+                    "4260323549532"
+                ],
+                "name": "Thermometer 10-100° C 20 cm lang 1 St",
+                "brand": null,
+                "supplier": "Spinnrad GmbH",
+                "supplierId": "b2e3a896-a1b9-40ae-8f38-dd60bfb966df",
+                "dosageForm": null,
+                "defaultSaleCondition": "OR",
+                "salesType": "bpc",
+                "mainCategory": {
+                    "id": "XVH4PLGY",
+                    "categoryId": "06c70087-a302-4663-91a0-c081ffa5325b",
+                    "name": "Arzneimittel \u0026 Gesundheit",
+                    "url": "/arzneimittel-gesundheit",
+                    "child": {
+                        "id": "C4X41GMR",
+                        "categoryId": "5fdfa9d4-dc25-42dd-b86b-fb58ef2b2bcd",
+                        "name": "Haus- \u0026 Reiseapotheke",
+                        "url": "/arzneimittel-gesundheit/haus-reiseapotheke",
+                        "child": {
+                            "id": "ZRJ6H9WC",
+                            "categoryId": "8e7a839d-8628-4809-80e5-6385a5e8222c",
+                            "name": "Hausapotheke",
+                            "url": "/arzneimittel-gesundheit/haus-reiseapotheke/hausapotheke",
+                            "child": {
+                                "id": "KCHK4K2Z",
+                                "categoryId": "a430af6a-68a8-4027-b5b0-1aa1442f0b7a",
+                                "name": "Erste Hilfe \u0026 Verbandmittel",
+                                "url": "/arzneimittel-gesundheit/haus-reiseapotheke/hausapotheke/erste-hilfe-verbandmittel",
+                                "child": null
+                            }
+                        }
+                    }
+                },
+                "breadcrumbs": [
+                    {
+                        "id": "XVH4PLGY",
+                        "categoryId": "06c70087-a302-4663-91a0-c081ffa5325b",
+                        "name": "Arzneimittel \u0026 Gesundheit",
+                        "url": "arzneimittel-gesundheit",
+                        "child": null
+                    },
+                    {
+                        "id": "C4X41GMR",
+                        "categoryId": "5fdfa9d4-dc25-42dd-b86b-fb58ef2b2bcd",
+                        "name": "Haus- \u0026 Reiseapotheke",
+                        "url": "haus-reiseapotheke",
+                        "child": null
+                    },
+                    {
+                        "id": "ZRJ6H9WC",
+                        "categoryId": "8e7a839d-8628-4809-80e5-6385a5e8222c",
+                        "name": "Hausapotheke",
+                        "url": "hausapotheke",
+                        "child": null
+                    },
+                    {
+                        "id": "KCHK4K2Z",
+                        "categoryId": "a430af6a-68a8-4027-b5b0-1aa1442f0b7a",
+                        "name": "Erste Hilfe \u0026 Verbandmittel",
+                        "url": "erste-hilfe-verbandmittel",
+                        "child": null
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": "KCHK4K2Z",
+                        "categoryId": "a430af6a-68a8-4027-b5b0-1aa1442f0b7a",
+                        "name": "Erste Hilfe \u0026 Verbandmittel",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "ZRJ6H9WC",
+                        "categoryId": "8e7a839d-8628-4809-80e5-6385a5e8222c",
+                        "name": "Hausapotheke",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "C4X41GMR",
+                        "categoryId": "5fdfa9d4-dc25-42dd-b86b-fb58ef2b2bcd",
+                        "name": "Haus- \u0026 Reiseapotheke",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "XVH4PLGY",
+                        "categoryId": "06c70087-a302-4663-91a0-c081ffa5325b",
+                        "name": "Arzneimittel \u0026 Gesundheit",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "RPH1PF6V",
+                        "categoryId": "b5ce7b3f-8970-45ba-8eef-7c29613b2b14",
+                        "name": "Wundversorgung",
+                        "url": null,
+                        "child": null
+                    },
+                    {
+                        "id": "TJ17R1WH",
+                        "categoryId": "cce73e03-2192-47c7-85d2-d1b42637c7db",
+                        "name": "Haut, Haare \u0026 Nägel",
+                        "url": null,
+                        "child": null
+                    }
+                ],
+                "productGroup": "15656657",
+                "rating": 5,
+                "reviewCount": 1,
+                "marketingText": null,
+                "valuePropositions": [],
+                "manualUrl": null,
+                "packageInsertUrls": [],
+                "pharmaceuticalInformation": [],
+                "saleConditions": {
+                    "OR": [
+                        {
+                            "code": "15656657",
+                            "readableId": "FX5AG5Z3",
+                            "productId": "33286c28-f941-455c-8eae-b29bb4ddfe7e",
+                            "packagingSize": "1 St",
+                            "quantity": 1,
+                            "baseprice": "5,29 €/St",
+                            "slug": "thermometer-10100-c-20-cm-lang/15656657",
+                            "url": "/thermometer-10100-c-20-cm-lang/15656657",
+                            "available": true,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 5.29,
+                                    "formattedValue": "5,29 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 5.35,
+                                    "formattedValue": "5,35 €"
+                                },
+                                "savings": {
+                                    "value": 0.06,
+                                    "formattedValue": "0,06 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": "1%",
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "5,29 €/St",
+                                "hasStock": true,
+                                "savingsPercentageFormatted": "1%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 5.29,
+                                        "formattedValue": "5,29 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ],
+                    "PKV": [
+                        {
+                            "code": "15656657",
+                            "readableId": "FX5AG5Z3",
+                            "productId": "33286c28-f941-455c-8eae-b29bb4ddfe7e",
+                            "packagingSize": "1 St",
+                            "quantity": 1,
+                            "baseprice": "5,29 €/St",
+                            "slug": "thermometer-10100-c-20-cm-lang/15656657",
+                            "url": "/thermometer-10100-c-20-cm-lang/15656657",
+                            "available": true,
+                            "prices": {
+                                "salesPrice": {
+                                    "value": 5.29,
+                                    "formattedValue": "5,29 €"
+                                },
+                                "recommendedRetailPrice": {
+                                    "value": 5.35,
+                                    "formattedValue": "5,35 €"
+                                },
+                                "savings": {
+                                    "value": 0.06,
+                                    "formattedValue": "0,06 €"
+                                },
+                                "bonus": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "maxRefundDifference": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "additionalPayment": {
+                                    "value": 0,
+                                    "formattedValue": "0,00 €"
+                                },
+                                "savingsPercentageFormatted": null,
+                                "metadata": {
+                                    "displayUVP": true,
+                                    "displaySaving": true,
+                                    "displayBonus": false
+                                }
+                            },
+                            "trafficChannel": null,
+                            "images": [
+                                {
+                                    "variants": {
+                                        "90": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps90r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 90,
+                                            "height": 90
+                                        },
+                                        "300": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 300,
+                                            "height": 300
+                                        },
+                                        "420": {
+                                            "formats": {
+                                                "webp": {
+                                                    "resolutions": {
+                                                        "1x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        },
+                                                        "2x": {
+                                                            "url": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "width": 420,
+                                            "height": 420
+                                        }
+                                    }
+                                }
+                            ],
+                            "bestSeller": {
+                                "id": "6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+                                "name": "DocMorris Apotheke",
+                                "baseprice": "5,29 €/St",
+                                "hasStock": true,
+                                "savingsPercentageFormatted": "1%",
+                                "prices": {
+                                    "salesPrice": {
+                                        "value": 5.29,
+                                        "formattedValue": "5,29 €"
+                                    }
+                                }
+                            },
+                            "sellers": [],
+                            "badges": []
+                        }
+                    ]
+                },
+                "composition": {
+                    "activeIngredients": [],
+                    "additives": []
+                },
+                "structuredData": "[{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://www.docmorris.de/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.docmorris.de/search?query={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}},{\"@type\":\"Organization\",\"url\":\"https://www.docmorris.de/\",\"name\":\"DocMorris\",\"logo\":\"https://www.docmorris.de/assets/img/brandlogos/docmorris-openGraph.jpg\",\"sameAs\":[\"https://www.facebook.com/DocMorris\",\"https://www.twitter.com/docmorris\",\"https://plus.google.com/+DocMorris\",\"https://www.instagram.com/docmorris/\",\"https://www.youtube.com/docmorris/\"],\"contactPoint\":[{\"@type\":\"ContactPoint\",\"telephone\":\"+49 800 480 80 00\",\"contactType\":\"customer service\"}]}]},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://www.docmorris.de\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Arzneimittel \u0026 Gesundheit\",\"item\":\"https://www.docmorris.de/arzneimittel-gesundheit\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Haus- \u0026 Reiseapotheke\",\"item\":\"https://www.docmorris.de/arzneimittel-gesundheit/haus-reiseapotheke\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Hausapotheke\",\"item\":\"https://www.docmorris.de/arzneimittel-gesundheit/haus-reiseapotheke/hausapotheke\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Erste Hilfe \u0026 Verbandmittel\",\"item\":\"https://www.docmorris.de/arzneimittel-gesundheit/haus-reiseapotheke/hausapotheke/erste-hilfe-verbandmittel\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Thermometer 10-100° C 20 cm lang 1 St\",\"item\":\"https://www.docmorris.de/thermometer-10100-c-20-cm-lang/15656657\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"https://www.docmorris.de/thermometer-10100-c-20-cm-lang/15656657\",\"mpn\":\"15656657\",\"sku\":\"15656657\",\"name\":\"Thermometer 10-100° C 20 cm lang 1 St - 1 St\",\"category\":\"Erste Hilfe \u0026 Verbandmittel\",\"image\":\"https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps300/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg\",\"manufacturer\":{\"@type\":\"Organization\",\"name\":\"Spinnrad GmbH\"},\"description\":\"Thermometer 10-100° C 20 cm lang 1 St - 1 St günstig online bestellen in der DocMorris online Apotheke. Schnelle Lieferung ✓ Sichere Zahlung ✓\",\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\",\"priceCurrency\":\"EUR\",\"url\":\"https://www.docmorris.de/thermometer-10100-c-20-cm-lang/15656657\",\"category\":\"Erste Hilfe \u0026 Verbandmittel\",\"price\":5.29,\"priceValidUntil\":\"2024-12-31\",\"eligibleQuantity\":{\"@type\":\"QuantitativeValue\",\"name\":\"1 St\"}},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"bestRating\":5,\"worstRating\":1,\"ratingValue\":5,\"reviewCount\":1}}]",
+                "isDrug": false,
+                "isVeterinaryDrug": false,
+                "faq": [],
+                "pharmaNotes": [],
+                "crossSellingEntry": null,
+                "sponsoredAds": {}
+            },
+            "saleCondition": "OR"
+        },
+        "__N_SSP": true
+    },
+    "page": "/[product-name]/[code]",
+    "query": {
+        "queryID": "f4b897249601e0fa5d58f38a4226b920",
+        "position": "7",
+        "objectID": "FX5AG5Z3_6fee4fe5-caf4-485d-9e1a-a3a5808ec912",
+        "product-name": "thermometer-10100-c-20-cm-lang",
+        "code": "15656657"
+    },
+    "buildId": "Pa9Cw4rPZUVyQlPeQFsNf",
+    "runtimeConfig": {
+        "sessionRefetchIntervalInSeconds": "300",
+        "gtmId": "GTM-KBGX7K8",
+        "gtmScriptParams": "",
+        "bazaarvoiceScriptUrl": "https://apps.bazaarvoice.com/deployments/docmorris/new_frontend/production/de_DE/bv.js",
+        "scanditApiKey": "AZHjKg+GKhyIO6iEgtAMPW8kT1okINbyqHZggvgOtveRK13fTlcARMV84l5yTslyIU7dmaJXBgQJWdWnPzqRIa0QUm5hc4YCPHFTH41paBWdeEWhNWdOtrJVFcGrW9Y7LXOwvtc/EpwLPKvt3SpNMkZBVwfRDT0uPV0tlWNjR4s5k9+DIdYVJm2oH+S6Rz4wH6scGjm2GDazdF9lIZIwd3JAZOVEqh4fwwhS3VcmnWaVZO8esPTr/6kYE6JU8OABQPnOHYkBuiyRIE38Iv0vYS5+mTy+B1AbUs5qX7HcaVz6EF9oQrZAi6c6rIAS8t1HyYpoPXuDUqkTbuyQAJkkQwJfJdbmvUCj5TY8FYcV6kbwMolDKuA0p9boG2nLJl/iSmcdH03JHY3i3uJQqnPMmo3dN7609GTIMuZ9yvrKtBjoPg44VhsD1X+AyUXvjxs3I6Igg8Nk3a4Kj3FUBDa9B/0/YHhSuOrNC163yc2cNIM8sO27JYZNvc/X8Ts/Gmlr4ac/v5D/4/91dRB/6QTUG4sLfG0CWsQDJ6tpjx8CYhfuy6+1OZc8A3z5Y5aGpfVV01JVKQiJklBK3OT52OOOHLFWSKrM7fXpHrCxMQsGXilduvRoasqFvvQ5tohbr8ID6ahBZcnQIab3LvsZb2IQV9xFlhgmozRp4yVzNU+hDSSKyVwiK/NupfY3Ht5/HYcy7e1ta+w063qDHx7CEifsP4uNQNgn4u3Ys3qjNPlwLiLFQQFoRZvlSbqNs8ot0w1qPafTbRQL30l4LrTxN8MV8HGvdg8MtjuhXT2PCb/8C+VhTUo+nrLg7CU+nqzwdseEafwmiEoq",
+        "domain": "https://www.docmorris.de",
+        "adyenEnv": "live",
+        "adyenClientKey": "live_4IWCDSSAXBCJPDX5IICK6DVWAIF23WRA",
+        "publicPath": "https://www.docmorris.de",
+        "nextExternalServerUrl": "https://www.docmorris.de/new-web/api",
+        "appVersion": "",
+        "activePartnerCodes": "BSW,Premium,bleibgesund,IKK,TK,Sympany",
+        "rxChannel": "docmorris_rx",
+        "recaptchaPublicKey": "6Le6WJYnAAAAALJjhVYzuyZyLbggy529cNWSyA2u",
+        "cmsApiRoot": "http://docmorris-cms-pro/api",
+        "nextPublicEnv": "production",
+        "staticUrl": "https://statics.docmorris.de",
+        "algolia": {
+            "appId": "R7NAV8R2RN",
+            "apiKey": "f21022624b7547ad443f573082a75de1",
+            "productsIndex": "pro_docmorris_products",
+            "categoriesIndex": "pro_docmorris_categories",
+            "rxProductsIndex": "pro_docmorris_products_rx"
+        },
+        "zendeskPublicKey": "66955451-cbfb-4b8b-8411-397eba046cf3",
+        "googleMapsApiKey": "AIzaSyByelFJmZO-1NIYXn_bsEaiG92hoPJNjmk",
+        "logger": {
+            "isCensorSensitiveValues": true
+        }
+    },
+    "isFallback": false,
+    "isExperimentalCompile": false,
+    "gssp": true,
+    "locale": "de",
+    "locales": [
+        "de"
+    ],
+    "defaultLocale": "de",
+    "scriptLoader": [
+        {
+            "id": "ze-snippet",
+            "src": "https://static.zdassets.com/ekr/snippet.js?key=66955451-cbfb-4b8b-8411-397eba046cf3",
+            "strategy": "lazyOnload"
+        }
+    ]
+}
