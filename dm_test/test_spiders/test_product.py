@@ -9,69 +9,6 @@ class TestProduct(unittest.TestCase):
         self.crawler = get_crawler(DmSpider)
         self.spider = self.crawler._create_spider()
 
-    def test_unavailable_produkt(self):
-        url = "https://products.dm.de/product/DE/products/detail/gtin/4008137009138"
-        body = None
-        with open(
-            "dm_test/jsons/produkt_4008137009138.json",
-            "rb",
-        ) as file:
-            body = file.read()
-        response = HtmlResponse(
-            url=url,
-            body=body,
-        )
-        result = list(self.spider.parse(response))
-        self.assertEqual(len(result), 1)
-        product = result[0]
-        target_product = {
-            "url": "https://www.dm.de/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel-p4008137009138.html",
-            "source": "dm",
-            "product_id": "1425051", # Artikelnummer意为商品号
-            "existence": False,
-            "title": "Früchtetee Heiße Zitrone mit Limette (15 Beutel), 37,5 g",
-            # "description": None,
-            "sku": "1425051",
-            "upc": "4008137009138",
-            "brand": "Bad Heilbrunner",
-            "categories": 'Gesundheit > Erkältung > Immunsystem stärken',
-            "images": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1718668959/products/pim/4008137009138-3571267/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820874/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820873/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel",
-            "videos": None,
-            "price": 3.16, # currency 1.11
-            "available_qty": 0,
-            "reviews": 53,
-            "rating": 4.7,
-            "shipping_fee": 5.49,
-            "shipping_days_min": 2,
-            "shipping_days_max": 3,
-            "weight": 0.08, # kg -> lb 2.204623
-        }
-
-        keys = [
-            "url",
-            "source",
-            "product_id",
-            "existence",
-            "title",
-            # "description",
-            "sku",
-            "upc",
-            "brand",
-            "categories",
-            "images",
-            "videos",
-            "price",
-            "available_qty",
-            "reviews",
-            "rating",
-            "shipping_fee",
-            "shipping_days_min",
-            "shipping_days_max",
-            "weight",
-        ]
-        for key in keys:
-            self.assertEqual(product[key], target_product[key])
-
     def test_available_produkt_v1(self):
         url = "https://products.dm.de/product/DE/products/detail/gtin/4066447774344"
         body = None
@@ -249,6 +186,131 @@ class TestProduct(unittest.TestCase):
             "shipping_days_min",
             "shipping_days_max",
             "length",
+        ]
+        for key in keys:
+            self.assertEqual(product[key], target_product[key])
+
+    def test_unavailable_produkt_v1(self):
+        url = "https://products.dm.de/product/DE/products/detail/gtin/4008137009138"
+        body = None
+        with open(
+            "dm_test/jsons/produkt_4008137009138.json",
+            "rb",
+        ) as file:
+            body = file.read()
+        response = HtmlResponse(
+            url=url,
+            body=body,
+        )
+        result = list(self.spider.parse(response))
+        self.assertEqual(len(result), 1)
+        product = result[0]
+        target_product = {
+            "url": "https://www.dm.de/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel-p4008137009138.html",
+            "source": "dm",
+            "product_id": "1425051", # Artikelnummer意为商品号
+            "existence": False,
+            "title": "Früchtetee Heiße Zitrone mit Limette (15 Beutel), 37,5 g",
+            # "description": None,
+            "sku": "1425051",
+            "upc": "4008137009138",
+            "brand": "Bad Heilbrunner",
+            "categories": 'Gesundheit > Erkältung > Immunsystem stärken',
+            "images": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1718668959/products/pim/4008137009138-3571267/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820874/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719708700/products/pim/4008137009138-2820873/bad-heilbrunner-fruechtetee-heisse-zitrone-mit-limette-15-beutel",
+            "videos": None,
+            "price": 3.16, # currency 1.11
+            "available_qty": 0,
+            "reviews": 53,
+            "rating": 4.7,
+            "shipping_fee": 5.49,
+            "shipping_days_min": 2,
+            "shipping_days_max": 3,
+            "weight": 0.08, # kg -> lb 2.204623
+        }
+
+        keys = [
+            "url",
+            "source",
+            "product_id",
+            "existence",
+            "title",
+            # "description",
+            "sku",
+            "upc",
+            "brand",
+            "categories",
+            "images",
+            "videos",
+            "price",
+            "available_qty",
+            "reviews",
+            "rating",
+            "shipping_fee",
+            "shipping_days_min",
+            "shipping_days_max",
+            "weight",
+        ]
+        for key in keys:
+            self.assertEqual(product[key], target_product[key])
+
+    def test_unavailable_produkt_v2(self):
+        url = "https://products.dm.de/product/DE/products/detail/gtin/4058172958786"
+        body = None
+        with open(
+            "dm_test/jsons/produkt_4058172958786.json",
+            "rb",
+        ) as file:
+            body = file.read()
+        response = HtmlResponse(
+            url=url,
+            body=body,
+        )
+        result = list(self.spider.parse(response))
+        self.assertEqual(len(result), 1)
+        product = result[0]
+        target_product = {
+            "url": "https://www.dm.de/trend-t-up-loses-puder-all-in-one-weichzeichner-effekt-p4058172958786.html",
+            "source": "dm",
+            "product_id": "1637437", # Artikelnummer意为商品号
+            "existence": False,
+            "title": "Loses Puder All In One Weichzeichner-Effekt, 4,5 g",
+            # "description": None,
+            "sku": "1637437",
+            "upc": "4058172958786",
+            "brand": "trend !t up",
+            "categories": 'Make-up > Teint > Puder & Mattierung',
+            "images": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1724720201/products/pim/4058172958786-3146366/trend-t-up-loses-puder-all-in-one-weichzeichner-effekt;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1724720201/products/pim/4058172958786-3160381/trend-t-up-loses-puder-all-in-one-weichzeichner-effekt",
+            "videos": None,
+            "price": 4.16, # currency 1.11
+            "available_qty": 0,
+            "reviews": 56,
+            "rating": 4.5,
+            "shipping_fee": 5.49,
+            "shipping_days_min": 2,
+            "shipping_days_max": 3,
+            "weight": 0.01, # cm -> inch 39.37008
+        }
+
+        keys = [
+            "url",
+            "source",
+            "product_id",
+            "existence",
+            "title",
+            # "description",
+            "sku",
+            "upc",
+            "brand",
+            "categories",
+            "images",
+            "videos",
+            "price",
+            "reviews",
+            "rating",
+            "shipping_fee",
+            "shipping_days_min",
+            "shipping_days_max",
+            "weight",
         ]
         for key in keys:
             self.assertEqual(product[key], target_product[key])

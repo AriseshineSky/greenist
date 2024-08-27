@@ -60,9 +60,8 @@ class DmSpider(scrapy.Spider):
                 
                 description += '  </div>\n'
 
-            description += '</div>\n'
-        
-        print(description)
+            description += '</div>\n' 
+        # print(description)
 
         upc = str(prod_info['gtin'])
         brand = prod_info['title']['brand']
@@ -84,11 +83,26 @@ class DmSpider(scrapy.Spider):
         
         reviews = prod_info['rating']['ratingCount']
         rating = round(prod_info['rating']['ratingValue'], 1)
-        
-        einheit = prod_info['price']['basePriceUnit'].lower()
+
+        weight = None
+        length = None
+        einheit = None
+        menge = None
+
+        if 'basePriceUnit' in prod_info['price']:
+            einheit = prod_info['price']['basePriceUnit'].lower()
+        else:
+            einheit = title.split()[-1].strip().lower() # 标题通常以量与单位结束
         menge = float(prod_info['price']['basePriceRelNetQuantity'])
-        weight = round(menge*2.204623, 2) if ((einheit == 'kg') or (einheit == 'l')) else None
-        length = round(menge*39.37008, 2) if einheit == 'm' else None
+        
+        if (einheit == 'kg') or (einheit == 'l'):
+            weight = round(menge*2.204623, 2)
+        elif (einheit == 'g') or (einheit == 'ml'):
+            weight = round(menge*0.002205, 2)
+        elif (einheit == 'm'):
+            length = round(menge*39.37008, 2)
+        elif (einheit == 'cm'):
+            length = round(menge*0.393701, 2)
 
         yield {
             "date": datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
