@@ -12,10 +12,9 @@ class DmSpider(scrapy.Spider):
 
     def parse(self, response: HtmlResponse):
         prod_info = response.json()
-        print(prod_info)
 
         url = 'https://www.dm.de'+prod_info['self']
-        product_id = prod_info['dan']
+        product_id = str(prod_info['dan'])
         
         existence = False
         if prod_info['availability']['purchasable']:
@@ -26,7 +25,7 @@ class DmSpider(scrapy.Spider):
         # TODO
         description = None
 
-        upc = prod_info['gtin']
+        upc = str(prod_info['gtin'])
         brand = prod_info['title']['brand']
         categories = " > ".join(prod_info['breadcrumbs'])
         
@@ -37,6 +36,20 @@ class DmSpider(scrapy.Spider):
         videos = None
         if 'videos' in prod_info:
             videos = ';'.join([v['iframeSrc'] for v in prod_info['videos']])
+
+        price = round(float(prod_info['price']['price'])*1.11, 2)
+
+        available_qty = None
+        if not existence:
+            available_qty = 0
+        
+        reviews = prod_info['rating']['ratingCount']
+        rating = round(prod_info['rating']['ratingValue'], 1)
+        
+        einheit = prod_info['price']['basePriceUnit'].lower()
+        menge = float(prod_info['price']['basePriceRelNetQuantity'])
+        weight = round(menge*2.204623, 2) if ((einheit == 'kg') or (einheit == 'l')) else None
+        length = round(menge*39.37008, 2) if einheit == 'm' else None
 
         yield {
             "date": datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
@@ -55,4 +68,19 @@ class DmSpider(scrapy.Spider):
             "categories": categories,
             "images": images,
             "videos": videos,
+            "price": price,
+            "available_qty": available_qty,
+            "options": None,
+            "variants": None,
+            "returnable": False,
+            "reviews": reviews,
+            "rating": rating,
+            "sold_count": None,
+            "shipping_fee": 5.49,
+            "shipping_days_min": 2,
+            "shipping_days_max": 3,
+            "weight": weight,
+            "width": None,
+            "height": None,
+            "length": length
         }

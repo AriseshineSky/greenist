@@ -41,7 +41,7 @@ class TestProduct(unittest.TestCase):
             "available_qty": 0,
             "reviews": 53,
             "rating": 4.7,
-            "shipping_fee": 5.52,
+            "shipping_fee": 5.49,
             "shipping_days_min": 2,
             "shipping_days_max": 3,
             "weight": 0.08, # kg -> lb 2.204623
@@ -100,10 +100,10 @@ class TestProduct(unittest.TestCase):
             "categories": 'Haushalt > Putzen & Reinigen > Putztücher, Schwämme & Co.',
             "images": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719794184/products/pim/4066447774344-1658996458/profissimo-hochglanz-oberflaechentuch-aus-mikrofaser;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719794184/products/pim/4066447774344-248284225/profissimo-hochglanz-oberflaechentuch-aus-mikrofaser;https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1719794184/products/pim/4066447774344-510520669/profissimo-hochglanz-oberflaechentuch-aus-mikrofaser",
             "videos": "https://www.youtube-nocookie.com/embed/-aDVJN4etow?rel=0&showinfo=0&modestbranding=1&playsinline=1;https://www.youtube-nocookie.com/embed/DqMl1hoRa4A?rel=0&showinfo=0&modestbranding=1&playsinline=1;https://www.youtube-nocookie.com/embed/JIfS7WP734g?rel=0&showinfo=0&modestbranding=1&playsinline=1",
-            "price": 2.51, # currency 1.11
+            "price": 2.50, # currency 1.11
             "reviews": 1,
             "rating": 5.0,
-            "shipping_fee": 5.52,
+            "shipping_fee": 5.49,
             "shipping_days_min": 2,
             "shipping_days_max": 3,
         }
@@ -162,7 +162,7 @@ class TestProduct(unittest.TestCase):
             "price": 1.05, # currency 1.11
             "reviews": 30,
             "rating": 4.5,
-            "shipping_fee": 5.52,
+            "shipping_fee": 5.49,
             "shipping_days_min": 2,
             "shipping_days_max": 3,
             "weight": 0.07, # kg -> lb 2.204623
@@ -196,7 +196,7 @@ class TestProduct(unittest.TestCase):
         url = "https://products.dm.de/product/DE/products/detail/gtin/8700216386760"
         body = None
         with open(
-            "dm_test/jsons/produkt_4066447731538.json",
+            "dm_test/jsons/produkt_8700216386760.json",
             "rb",
         ) as file:
             body = file.read()
@@ -223,10 +223,10 @@ class TestProduct(unittest.TestCase):
             "price": 4.38, # currency 1.11
             "reviews": 0,
             "rating": 0.0,
-            "shipping_fee": 5.52,
+            "shipping_fee": 5.49,
             "shipping_days_min": 2,
             "shipping_days_max": 3,
-            "length": 1968.50, # cm -> inch 0.393701
+            "length": 1968.50, # cm -> inch 39.37008
         }
 
         keys = [
