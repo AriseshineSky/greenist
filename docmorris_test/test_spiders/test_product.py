@@ -26,7 +26,7 @@ class TestProduct(unittest.TestCase):
         product = result[0]
         target_product = {
             "url": "https://www.docmorris.de/docmorris-vitamin-d3-tabletten-800-ie/08068486",
-            "source": "DrMorris",
+            "source": "DocMorris",
             "product_id": "b807667a-b87d-40a7-ad50-0eb4aed4e0b1",
             "existence": True,
             "title": "DocMorris Vitamin D3 Tabletten 800 I.E. 60 St",
@@ -48,7 +48,6 @@ class TestProduct(unittest.TestCase):
             "url",
             "source",
             "product_id",
-            "readable_id",
             "existence",
             "title",
             # "description",
@@ -57,7 +56,6 @@ class TestProduct(unittest.TestCase):
             "brand",
             "categories",
             "images",
-            "videos",
             "price",
             "reviews",
             "rating",
@@ -95,7 +93,6 @@ class TestProduct(unittest.TestCase):
             "brand": "Kytta",
             "categories": 'Arzneimittel & Gesundheit > Muskeln, Knochen, Gelenke > Stauchung, Prellung & Zerrung > Cremes & Gele',
             "images": "https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-0-1720620118087441.jpg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-2-1720620118721051.jpeg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-3-1720620118989838.jpeg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-4-1720620119264784.jpeg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-5-1720620119632811.jpeg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-6-1720620119915471.jpeg;https://statics.docmorris.de/static/produkte/FX5UP389/docmorris/ps420r/kytta-schmerzsalbe-150-g-10832865-7-1720620120183847.jpeg",
-            "videos": None,
             "price": 21.08, # currency 1.11
             "reviews": 495,
             "rating": 4.6,
@@ -117,7 +114,6 @@ class TestProduct(unittest.TestCase):
             "brand",
             "categories",
             "images",
-            "videos",
             "price",
             "reviews",
             "rating",
@@ -156,7 +152,6 @@ class TestProduct(unittest.TestCase):
             "brand": None,
             "categories": 'Arzneimittel & Gesundheit > Haus- & Reiseapotheke > Hausapotheke > Erste Hilfe & Verbandmittel',
             "images": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg",
-            "videos": None,
             "price": 5.87, # currency 1.11
             "reviews": 1,
             "rating": 5.0,
@@ -178,7 +173,6 @@ class TestProduct(unittest.TestCase):
             "brand",
             "categories",
             "images",
-            "videos",
             "price",
             "reviews",
             "rating",
@@ -214,10 +208,9 @@ class TestProduct(unittest.TestCase):
             # "description": None,
             "sku": "LG1G161S",
             "upc": "01407092",
-            "brand": None,
-            "categories": 'Arzneimittel & Gesundheit > Haus- & Reiseapotheke > Hausapotheke > Erste Hilfe & Verbandmittel',
-            "images": "https://statics.docmorris.de/static/produkte/FX5AG5Z3/docmorris/ps420r/thermometer-10-1000-c-20-cm-lang-1-st-15656657-default-1714050672913044.jpeg",
-            "videos": None,
+            "brand": "Hartmann ES",
+            "categories": 'Arzneimittel & Gesundheit > Haut, Haare & Nägel > Wundversorgung > Tupfer & Kompressen',
+            "images": "https://statics.docmorris.de/static/produkte/LG1G161S/docmorris/ps420r/es-kompressen-steril-8f-10-x-20-cm-25x2-st-01407092-0-1713969014004330.jpeg",
             "price": 28.29, # currency 1.11
             "reviews": 1,
             "rating": 5.0,
@@ -241,7 +234,6 @@ class TestProduct(unittest.TestCase):
             "brand",
             "categories",
             "images",
-            "videos",
             "price",
             "reviews",
             "rating",
@@ -259,7 +251,7 @@ class TestProduct(unittest.TestCase):
         url = "https://www.docmorris.de/hitzer-loesung/04982721"
         body = None
         with open(
-            "dm_test/htmls/hitzer-loesung_04982721.html",
+            "docmorris_test/htmls/hitzer-loesung_04982721.html",
             "rb",
         ) as file:
             body = file.read()
@@ -282,7 +274,6 @@ class TestProduct(unittest.TestCase):
             "brand": None,
             "categories": None,
             "images": "https://statics.docmorris.de/static/docmorris/cms/ps420r/docmorris_fallback_6a098c8404.jpeg",
-            "videos": None,
             "price": 33.68, # currency 1.11
             "available_qty": 0,
             "reviews": 0,
@@ -305,7 +296,6 @@ class TestProduct(unittest.TestCase):
             "brand",
             "categories",
             "images",
-            "videos",
             "price",
             "available_qty",
             "reviews",

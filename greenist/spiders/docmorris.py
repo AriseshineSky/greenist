@@ -1,6 +1,6 @@
 from datetime import datetime
 from json import loads
-from math import ceil
+from re import findall
 
 import scrapy
 from scrapy.http import Request, Response, HtmlResponse
@@ -15,7 +15,6 @@ class DocMorrisSpider(scrapy.Spider):
     def parse(self, response: HtmlResponse):
         try:
             prod_info = loads(response.css('script#__NEXT_DATA__::text').get().strip())['props']['pageProps']['product']
-            print(prod_info)
         except:
             return
 
@@ -32,13 +31,17 @@ class DocMorrisSpider(scrapy.Spider):
 
         upc = prod_info['code']
         brand = prod_info['brand']
-        categories = " > ".join([bc['name'] for bc in prod_info['breadcrumbs']])
+
+        categories = None
+        if prod_info['breadcrumbs']:
+            categories = " > ".join([bc['name'] for bc in prod_info['breadcrumbs']])
 
         images = None
         if prod_info['images']:
             images = ";".join([img['variants']['420']['formats']['webp']['resolutions']['2x']['url'] for img in prod_info['images']])
 
-        price = round(prod_info['prices']['salesPrice']['value']*1.11, 2)
+        price_eu = prod_info['prices']['salesPrice']['value']
+        price = round(price_eu*1.11, 2)
 
         available_qty = None
         if not existence:
@@ -46,15 +49,24 @@ class DocMorrisSpider(scrapy.Spider):
         
         reviews = prod_info['reviewCount'] if prod_info['reviewCount'] else 0
         rating = round(prod_info['rating'], 1) if (prod_info['rating'] is not None) else None
-        shipping_fee = 0.00 if price >= 21.09 else 3.89 # 19欧元及以上免运费
+        shipping_fee = 0.00 if price_eu >= 19.00 else 3.89 # 19欧元及以上免运费
 
+        # 解析重量
         weight = None
-        width = None
-        height = None
-        length = None
-
         menge, einheit = prod_info['packagingSize'].strip().lower().split()
         if (einheit == 'ml') or (einheit == 'g'):
+            weight = round(float(menge)*0.002205, 2)
+        elif (einheit == 'l') or (menge == 'kg'):
+            weight = round(float(menge)*2.204623, 2)
+        else:
+            ep, _ = prod_info['baseprice'].strip().lower().split()
+            m = price_eu / float(ep.replace('.', '').replace(',', '.'))
+            if (prod_info['baseprice'].endswith('/g')) or (prod_info['baseprice'].endswith('/ml')):
+                weight = round(m*0.002205, 2)
+            elif (prod_info['baseprice'].endswith('/kg')) or (prod_info['baseprice'].endswith('/l')):
+                weight = round(m*2.204623, 2)
+
+        width, length = self.parse_dimensions(title.lower())
 
         yield {
             "date": datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
@@ -86,6 +98,47 @@ class DocMorrisSpider(scrapy.Spider):
             "shipping_days_max": 1,
             "weight": weight,
             "width": width,
-            "height": height,
+            "height": None,
             "length": length
         }
+
+    def parse_dimensions(self, titel: str) -> tuple:
+        """
+        由标题解析长宽
+        """
+
+        dimensions = [None, None]
+        width = None
+        length = None
+
+        match1 = findall(r'(\d+)\s*([a-zA-Z]*)\s*[Xx]\s*(\d+)\s*([a-zA-Z]+)', titel)
+        match2 = findall(r'(\d+)\s*([a-zA-Z]+)', titel)
+
+        if match1:
+            amounts = [match1[0][0], match1[0][2]]
+
+            unit2 = match1[0][3]
+            unit1 = match1[0][1] if match1[0][1] else unit2
+            units = [unit1, unit2]
+
+            for i, (am, un) in enumerate(zip(amounts, units)):
+                if un == 'cm':
+                    dimensions[i] = round(float(am)*0.393701, 2)
+                elif un == 'm':
+                    dimensions[i] = round(float(am)*39.37008, 2)
+        elif match2:
+            am, un = match2[0]
+            if un == 'cm':
+                length = round(float(am)*0.393701, 2)
+            elif un == 'm':
+                length = round(float(am)*39.37008, 2)
+
+        if (dimensions[0] is not None) and (dimensions[1] is not None):
+            if dimensions[0] > dimensions[1]:
+                width = dimensions[1]
+                length = dimensions[0]
+            else:
+                width = dimensions[0]
+                length = dimensions[1]
+
+        return (width, length)
