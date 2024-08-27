@@ -77,7 +77,7 @@ class TestProduct(unittest.TestCase):
         url = "https://www.docmorris.de/docmorris-vitamin-d3-tabletten-800-ie/08068486"
         body = None
         with open(
-            "dm_test/htmls/docmorris-vitamin-d3-tabletten-800-ie_08068486.html",
+            "docmorris_test/htmls/docmorris-vitamin-d3-tabletten-800-ie_08068486.html",
             "rb",
         ) as file:
             body = file.read()
@@ -136,7 +136,7 @@ class TestProduct(unittest.TestCase):
         url = "https://www.docmorris.de/kytta-schmerzsalbe/10832865"
         body = None
         with open(
-            "dm_test/htmls/kytta-schmerzsalbe_10832865.html",
+            "docmorris_test/htmls/kytta-schmerzsalbe_10832865.html",
             "rb",
         ) as file:
             body = file.read()
