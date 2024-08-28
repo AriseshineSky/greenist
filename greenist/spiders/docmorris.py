@@ -28,12 +28,65 @@ class DocMorrisSpider(scrapy.Spider):
         if prod_info['marketingText']:
             description += '  <div>\n'
             description += '    <h2>Produktinformationen</h2>\n'
-            description += f'    {prod_info['marketingText']}'
+            description += f'    {prod_info["marketingText"]}'
             description += '  </div>\n'
 
-        # TODO
-        if (prod_info['manualUrl']) or (prod_info['packageInsertUrls']):
-            pass
+        if prod_info['pharmaceuticalInformation']:
+            description += '  <div>\n'
+            description += '    <h2>Gebrauchsinformationen & Pflichtangaben</h2>\n'
+            
+            for i, pi in enumerate(prod_info['pharmaceuticalInformation']):
+                ut = pi['type']
+                inh = pi['content']
+
+                h3 = f'Info{i}'
+                if ut == 'DOSAGE':
+                    h3 = 'Dosierung'
+                elif ut == 'WARNINGS':
+                    h3 = 'Warnhinweise & Hilfsstoffe'
+                elif ut == 'INTERACTIONS':
+                    h3 = 'Wechselwirkungen'
+                elif ut == 'PATIENT_INFORMATION':
+                    h3 = 'Patientenhinweise'
+                elif ut == 'SIDE_EFFECTS':
+                    h3 = 'Nebenwirkungen'
+                elif ut == 'APPLICATION_AREAS':
+                    h3 = 'Anwendungsgebiete'
+                elif ut == 'LACTATION':
+                    h3 = 'Stillzeit'
+                elif ut == 'MODE_OF_USE':
+                    h3 = 'Anwendungshinweise'
+                elif ut == 'CONTRAINDICATIONS':
+                    h3 = 'Gegenanzeigen'
+            
+                description += f'    <h3>{h3}</h3>\n'
+                description += f'    <div>{inh}</div>\n'
+            
+            description += '  </div>\n'
+
+        if (prod_info['composition']) and ((prod_info['composition'].get('activeIngredients')) or (prod_info['composition'].get('additives'))):
+            description += '  <div>\n'
+            description += '    <h2>Produktzusammensetzung</h2>\n'
+
+            if prod_info['composition'].get('activeIngredients'):
+                description += '    <h3>Wirkstoffe</h3>\n'
+                description += '    <table>\n'
+
+                for ai in prod_info['composition']['activeIngredients']:
+                    description += f'      <tr><th scope=\"row\">{ai["name"]}</th><td>{ai["quantity"]}</td></tr>\n'
+
+                description += '    </table>\n'
+
+            if prod_info['composition'].get('additives'):
+                description += '    <h3>Hilfsstoffe</h3>\n'
+                description += '    <table>\n'
+
+                for ad in prod_info['composition']['additives']:
+                    description += f'      <tr><th scope=\"row\">{ad["name"]}</th><td>{ad["quantity"]}</td></tr>\n'
+
+                description += '    </table>\n'
+
+            description += '  </div>\n'
 
         description += '</div>\n'
         print(description)
